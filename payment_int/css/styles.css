@@ -20,8 +20,9 @@ body {
 
 
 .navbar-brand h1 { /* Restaurant name */
-  font-family: Copperplate Gothic Light;
- 
+  font-family: 'Sofia Pro', sans-serif;
+                                                
+
   color: white;
   font-size: 2.5em;
   font-weight: bold;
@@ -374,8 +375,15 @@ h3.menu-item-title {
     height: 20px;
   }
 
+  #collapsable-nav{
+
+    margin-top: 45px;
+  }
+
   #collapsable-nav a { /* Collapsed nav menu text */
     font-size: 1.2em;
+    align-items: center;
+
   }
   #collapsable-nav a span { /* Collapsed nav menu glyph */
     font-size: 1em;
