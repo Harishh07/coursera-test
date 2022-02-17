@@ -5973,12 +5973,13 @@ font-weight: bold;
 
 .portfolio{
 
- font-size: 30px !important;
+ font-size: 40px !important;
+ width: 100%;
  position: absolute; 
  font-family:'Sofia Pro', sans-serif;   
  top: 47%;
  font-weight: 300 !important;
- left: 50% !important;
+ left: 70% !important;
  transform: translate(-50%,-50%);
  color: #fff;
  font-weight: 400 !important;
@@ -5987,10 +5988,10 @@ font-weight: bold;
 }
 .portf{
 
- font-size: 17px !important;
+ font-size: 19px !important;
  position: absolute; 
  font-family:Josefin Sans;   
- top: 54%;
+ top: 57%;
  font-weight: 300 !important;
  left: 51%;
  transform: translate(-50%,-50%);
@@ -6012,12 +6013,13 @@ font-weight: bold;
 
 .portfolio{
 
- font-size: 27px !important;
+ font-size: 38px !important;
+ width: 100%;
  position: absolute; 
  font-family:'Sofia Pro', sans-serif;   
  top: 47%;
  font-weight: 300 !important;
- left: 50% !important;
+ left: 67% !important;
  transform: translate(-50%,-50%);
  color: #fff;
  font-weight: 400 !important;
@@ -6026,10 +6028,10 @@ font-weight: bold;
 }
 .portf{
 
- font-size: 14px !important;
+ font-size: 19px !important;
  position: absolute; 
  font-family:Josefin Sans;   
- top: 53%;
+ top: 57%;
  font-weight: 300 !important;
  left: 51%;
  transform: translate(-50%,-50%);
@@ -6368,12 +6370,13 @@ nav .icon-burger {
 
 .portfolio{
 
- font-size: 24px !important;
+ font-size: 36px !important;
+ width: 100%;
  position: absolute; 
  font-family:'Sofia Pro', sans-serif;   
  top: 47%;
  font-weight: 300 !important;
- left: 50% !important;
+ left: 66% !important;
  transform: translate(-50%,-50%);
  color: #fff;
  font-weight: 400 !important;
@@ -6382,10 +6385,10 @@ nav .icon-burger {
 }
 .portf{
 
- font-size: 14px !important;
+ font-size: 17px !important;
  position: absolute; 
  font-family:Josefin Sans;   
- top: 53%;
+ top: 57%;
  font-weight: 300 !important;
  left: 51%;
  transform: translate(-50%,-50%);
@@ -6754,12 +6757,13 @@ nav .icon-burger {
 
 .portfolio{
 
- font-size: 23px !important;
+ font-size: 34px !important;
+ width: 100%;
  position: absolute; 
  font-family:'Sofia Pro', sans-serif;   
  top: 47%;
  font-weight: 300 !important;
- left: 50% !important;
+ left: 65% !important;
  transform: translate(-50%,-50%);
  color: #fff;
  font-weight: 400 !important;
@@ -6768,10 +6772,10 @@ nav .icon-burger {
 }
 .portf{
 
- font-size: 13px !important;
+ font-size: 16px !important;
  position: absolute; 
  font-family:Josefin Sans;   
- top: 54%;
+ top: 56%;
  font-weight: 300 !important;
  left: 51%;
  transform: translate(-50%,-50%);
@@ -6782,6 +6786,7 @@ nav .icon-burger {
  animation: blinker 1.7s infinite !important;
  
 }
+
 
   
 
