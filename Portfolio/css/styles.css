@@ -6040,7 +6040,7 @@ nav .icon-burger {
     padding-top: 0px;
     color: white;
     font-family: 'Sofia Pro', sans-serif;
-    font-size: 70px;
+    font-size: 80px;
     margin-left: 2.4%;
     font-weight: bold;
     line-height: 1.35;
@@ -6071,6 +6071,53 @@ nav .icon-burger {
     color: white;
     width: 100%;
 }
+
+
+#worked{
+
+  font-size: 116% !important;
+
+
+}
+
+#resume {
+    margin-top: 60px;
+}
+
+.techbox {
+    background: black;
+    margin-left: 0;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1.5%;
+    height: 550px;
+    margin-bottom: 5%;
+}
+
+.abc {
+    height: 820px;
+}
+
+.skillscon {
+    height: 1250px;
+    background-color: #121417;
+    width: 100%;
+}
+
+.profbox {
+    display: flex;
+    border-left: 80px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 0px;
+    height: 510px;
+    width: 100%;
+    background: black;
+}
+
+
+
 
 
 
