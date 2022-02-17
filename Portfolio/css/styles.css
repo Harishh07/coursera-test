@@ -6091,7 +6091,7 @@ nav .icon-burger {
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 1.5%;
-    height: 550px;
+    height: 530px;
     margin-bottom: 5%;
 }
 
@@ -6100,7 +6100,7 @@ nav .icon-burger {
 }
 
 .skillscon {
-    height: 1250px;
+    height: 1220px;
     background-color: #121417;
     width: 100%;
 }
@@ -6111,7 +6111,7 @@ nav .icon-burger {
     padding-left: 0;
     padding-right: 0;
     margin-top: 0px;
-    height: 510px;
+    height: 495px;
     width: 100%;
     background: black;
 }
@@ -6201,7 +6201,7 @@ nav .icon-burger {
 }
 
 #letmeknowyou {
-    margin-top: 0.7%;
+    margin-top: 2.5%;
     margin-bottom: 5%;
     margin-left: 3.1%;
     font-family: 'Sofia Pro', sans-serif;
@@ -6258,7 +6258,7 @@ nav .icon-burger {
 
 #resume {
     font-family: Josefin Sans;
-    font-size: 180%;
+    font-size: 160%;
     font-weight: bold;
     margin-top: 8%;
     opacity: 100%;
@@ -6425,7 +6425,7 @@ nav .icon-burger {
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 1.5%;
-    height: 550px;
+    height: 510px;
     margin-bottom: 5%;
 }
 
@@ -6434,7 +6434,7 @@ nav .icon-burger {
 }
 
 .skillscon {
-    height: 1210px;
+    height: 1170px;
     background-color: #121417;
     width: 100%;
 }
@@ -6544,7 +6544,7 @@ nav .icon-burger {
 }
 
 #letmeknowyou {
-    margin-top: 0.7%;
+    margin-top: 2.3%;
     margin-bottom: 5%;
     margin-left: 3.1%;
     font-family: 'Sofia Pro', sans-serif;
@@ -6601,7 +6601,7 @@ nav .icon-burger {
 
 #resume {
     font-family: Josefin Sans;
-    font-size: 180%;
+    font-size: 155%;
     font-weight: bold;
     margin-top: 8%;
     opacity: 100%;
@@ -6638,6 +6638,370 @@ nav .icon-burger {
     position: absolute;
     bottom: 225px;
     right: 90px;
+    color: white;
+    font-size: 22vw;
+}
+
+}
+
+@media (max-width: 394px) and (min-width: 360px){
+
+.navbar-brand{
+
+  margin-top: 4px;
+
+ }
+
+
+#main-contents{
+
+  display: grid;
+  height: 720px;
+  overflow: hidden;
+  margin-top: 0px;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+
+}
+
+#hellotext {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 60px;
+    width: 45%;
+    font-weight: 650;
+    opacity: 100%;
+    animation: abouttext 2s 1 forwards;
+    margin-top: -220px;
+    margin-left: 3% !important;
+    height: 100px;
+}
+
+
+.stickk .navbar-brand h1 {
+    animation: text 2s 1 forwards;
+    font-family: 'Sofia Pro', sans-serif;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .38;
+}
+
+
+
+nav .icon-burger {
+    position: absolute;
+    margin-top: 0px;
+    right: 2%;
+    top: 28%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.stickk .icon-burger {
+    position: absolute;
+    margin-top: 0px;
+    right: 2%;
+    top: 33%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+
+.abc span {
+    padding-top: 0px;
+    color: white;
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 75px;
+    margin-left: 2.4%;
+    font-weight: bold;
+    line-height: 1.35;
+}
+
+
+#skillssname {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 75px;
+    color: white;
+    opacity: 0.8;
+    font-weight: bold;
+    margin-left: 3.7%;
+    line-height: 1.35;
+    margin-bottom: 2.5%;
+    align-content: left;
+}
+
+.mh-skills .mh-professional-skill h3 {
+    font-size: 260%;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 6.2%;
+    align-content: center;
+    margin-bottom: 6.5%;
+    font-family: Josefin Sans;
+    color: white;
+}
+
+
+.mh-professional-skills h3 {
+    font-size: 227%;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 640;
+    margin-top: 6.9%;
+    margin-bottom: 5.5%;
+    font-family: Josefin Sans;
+    color: white;
+    width: 100%;
+}
+
+
+#worked{
+
+  font-size: 98% !important;
+
+
+}
+
+#resume {
+    margin-top: 60px;
+}
+
+.techbox {
+    background: black;
+    margin-left: 0;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1.5%;
+    height: 500px;
+    margin-bottom: 5%;
+}
+
+.abc {
+    height: 820px;
+}
+
+.skillscon {
+    height: 1160px;
+    background-color: #121417;
+    width: 100%;
+}
+
+.profbox {
+    display: flex;
+    border-left: 80px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 0px;
+    height: 470px;
+    width: 100%;
+    background: black;
+}
+
+
+#music-text {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 75px;
+    font-weight: bold;
+    color: white;
+}
+
+#music-title {
+    margin-left: 3.7%;
+    margin-bottom: 3%;
+    margin-right: 0;
+    width: 94%;
+}
+
+#imakemusic {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 115%;
+    font-weight: bold;
+    color: black;
+}
+
+#checkout {
+    font-family: Josefin Sans;
+    font-size: 50%;
+    font-weight: bold;
+    color: black;
+}
+
+#desc {
+    margin-top: 10px;
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 37%;
+    color: white;
+    padding-left: 5px;
+    font-weight: 400;
+    padding-right: 10px;
+}
+
+#spotify {
+    font-family: Sofia Pro;
+    font-size: 58%;
+    font-weight: 500;
+    color: black;
+}
+
+#plattforms {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    background: white;
+    padding-left: 3%;
+    padding-bottom: 1%;
+    height: 450px;
+    width: 100%;
+}
+
+#music-des {
+    display: flex;
+    width: 100%;
+    height: 490px;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+#music {
+    display: flex;
+    height: 1200px;
+    margin-right: 0px;
+    margin-left: 0;
+    background: black;
+    width: 100%;
+}
+
+
+#about-text {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 77px;
+    font-weight: bold;
+    color: black;
+}
+
+#myname {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 195%;
+    font-weight: bold;
+    color: white;
+}
+
+#aboutme {
+    display: flex;
+    height: 1450px;
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0;
+    background: white;
+    border-bottom: 22px solid black;
+}
+
+#letmeknowyou {
+    margin-top: 2.2%;
+    margin-bottom: 5%;
+    margin-left: 3.1%;
+    font-family: 'Sofia Pro', sans-serif;
+    color: black;
+    font-size: 43px;
+    font-weight: bold;
+}
+
+#text-tile {
+    font-family: 'Sofia Pro', sans-serif;
+    color: white;
+    font-size: 53.7px;
+    font-weight: bold;
+    margin-top: 4%;
+    margin-left: 2%;
+    height: 450px;
+}
+
+#menu-tile, #specials-tile {
+    width: 280px;
+    margin: 0 auto 45px;
+    margin-left: 0;
+}
+
+#contact {
+    padding-top: 44px;
+    padding-left: 3vw;
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+#home-tiles {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin-left: 3.7%;
+    margin-top: 1%;
+    margin-right: 3.7%;
+}
+
+.name-me {
+    font-family: "Helvetica Now Display DW",sans-serif;
+    font-weight: 520;
+    letter-spacing: .4em;
+    color: #575757;
+    font-size: 18px;
+    line-height: 1.25rem;
+    text-transform: uppercase;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+
+
+#resume {
+    font-family: Josefin Sans;
+    font-size: 140%;
+    font-weight: bold;
+    margin-top: 8%;
+    opacity: 100%;
+    color: white;
+    line-height: 50px;
+}
+
+
+@keyframes text{
+
+0% {
+    left: 0%;
+    width: 0px;
+}
+
+100% {
+    left: 100%;
+    width: 235px;
+}
+
+}
+
+.navbar-brand h1 {
+    padding-top: 10px;
+    font-size: 48px;
+}
+
+#contt {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 30%;
+    font-weight: 400;
+    width: 115%;
+    margin-bottom: 20px;
+    color: grey;
+}
+
+.t11 {
+    display: grid;
+    position: absolute;
+    bottom: 225px;
+    right: 85px;
     color: white;
     font-size: 22vw;
 }
