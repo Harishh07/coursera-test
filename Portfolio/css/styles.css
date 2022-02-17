@@ -6266,5 +6266,20 @@ nav .icon-burger {
     line-height: 60px;
 }
 
+
+@keyframes text{
+
+0% {
+    left: 0%;
+    width: 0px;
+}
+
+100% {
+    left: 100%;
+    width: 265px;
+}
+
+}
+
 }
 
