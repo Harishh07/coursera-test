@@ -5968,3 +5968,45 @@ font-weight: bold;
 
 
 /* MUSIC PAGE END */
+
+
+@media (max-width: 478px) and (min-width: 280px){
+
+.navbar-brand{
+
+  margin-top: 4px;
+
+ }
+
+
+#main-contents{
+
+  display: grid;
+  height: 720px;
+  overflow: hidden;
+  margin-top: 0px;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+
+}
+
+#hellotext {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 60px;
+    width: 45%;
+    font-weight: 650;
+    opacity: 100%;
+    animation: abouttext 2s 1 forwards;
+    margin-top: -220px;
+    margin-left: 3% !important;
+    height: 100px;
+}
+
+
+
+
+
+
+
+}
