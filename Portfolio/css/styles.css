@@ -6004,6 +6004,73 @@ font-weight: bold;
 }
 
 
+.stickk .navbar-brand h1 {
+    animation: text 2s 1 forwards;
+    font-family: 'Sofia Pro', sans-serif;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .38;
+}
+
+
+
+nav .icon-burger {
+    position: absolute;
+    margin-top: 0px;
+    right: 2%;
+    top: 28%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.stickk .icon-burger {
+    position: absolute;
+    margin-top: 0px;
+    right: 2%;
+    top: 33%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+
+.abc span {
+    padding-top: 0px;
+    color: white;
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 70px;
+    margin-left: 2.4%;
+    font-weight: bold;
+    line-height: 1.35;
+}
+
+
+#skillssname {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 80px;
+    color: white;
+    opacity: 0.8;
+    font-weight: bold;
+    margin-left: 3.7%;
+    line-height: 1.35;
+    margin-bottom: 2.5%;
+    align-content: left;
+}
+
+
+.mh-professional-skills h3 {
+    font-size: 247%;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 640;
+    margin-top: 6.9%;
+    margin-bottom: 5.5%;
+    font-family: Josefin Sans;
+    color: white;
+    width: 100%;
+}
 
 
 
