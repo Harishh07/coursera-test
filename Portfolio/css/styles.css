@@ -6117,10 +6117,154 @@ nav .icon-burger {
 }
 
 
+#music-text {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+}
+
+#music-title {
+    margin-left: 3.7%;
+    margin-bottom: 3%;
+    margin-right: 0;
+    width: 94%;
+}
+
+#imakemusic {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 135%;
+    font-weight: bold;
+    color: black;
+}
+
+#checkout {
+    font-family: Josefin Sans;
+    font-size: 60%;
+    font-weight: bold;
+    color: black;
+}
 
 
+#spotify {
+    font-family: Sofia Pro;
+    font-size: 60%;
+    font-weight: 500;
+    color: black;
+}
+
+#plattforms {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    background: white;
+    padding-left: 3%;
+    padding-bottom: 1%;
+    height: 480px;
+    width: 100%;
+}
+
+#music-des {
+    display: flex;
+    width: 100%;
+    height: 530px;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+#music {
+    display: flex;
+    height: 1250px;
+    margin-right: 0px;
+    margin-left: 0;
+    background: black;
+    width: 100%;
+}
 
 
+#about-text {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    color: black;
+}
 
+#aboutme {
+    display: flex;
+    height: 1460px;
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0;
+    background: white;
+    border-bottom: 22px solid black;
+}
+
+#letmeknowyou {
+    margin-top: 0.7%;
+    margin-bottom: 5%;
+    margin-left: 3.1%;
+    font-family: 'Sofia Pro', sans-serif;
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#text-tile {
+    font-family: 'Sofia Pro', sans-serif;
+    color: white;
+    font-size: 57px;
+    font-weight: bold;
+    margin-top: 4%;
+    margin-left: 2%;
+    height: 450px;
+}
+
+#menu-tile, #specials-tile {
+    width: 280px;
+    margin: 0 auto 45px;
+    margin-left: 0;
+}
+
+#contact {
+    padding-top: 44px;
+    padding-left: 3vw;
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+#home-tiles {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin-left: 3.7%;
+    margin-top: 1%;
+    margin-right: 3.7%;
+}
+
+.name-me {
+    font-family: "Helvetica Now Display DW",sans-serif;
+    font-weight: 520;
+    letter-spacing: .4em;
+    color: #575757;
+    font-size: 18px;
+    line-height: 1.25rem;
+    text-transform: uppercase;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+
+
+#resume {
+    font-family: Josefin Sans;
+    font-size: 180%;
+    font-weight: bold;
+    margin-top: 8%;
+    opacity: 100%;
+    color: white;
+    line-height: 60px;
+}
 
 }
+
