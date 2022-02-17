@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Bonheur Royale
+- Font Author: Copyright 2005-2021 The Bonheur Royale Project Authors (https://github.com/googlefonts/bonheur-royale)
+- Font Source: http://fonts.gstatic.com/s/bonheurroyale/v1/c4m51nt_GMTrtX-b9GcG4-YRmYK_c0f1N5Ij.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
