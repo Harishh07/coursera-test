@@ -6081,12 +6081,12 @@ font-weight: bold;
     border-radius: 0;
     overflow: hidden;
     transition: all 0.5s ease;
-    height: 60px;
+    height: 64px;
 }
 
 .stickk .navbar-brand {
     position: absolute;
-    top: 12%;
+    top: 15%;
 }
 
 }
@@ -6097,7 +6097,7 @@ font-weight: bold;
 
 .stickk .navbar-brand {
     position: absolute;
-    top: 1%;
+    top: 4%;
 }
 
 .stickk {
@@ -6108,8 +6108,15 @@ font-weight: bold;
     border-radius: 0;
     overflow: hidden;
     transition: all 0.5s ease;
-    height: 60px;
+    height: 64px;
 }
+
+.stickk .linkk {
+
+
+    top: 63px;
+
+  }
 
 
 #two {
@@ -6597,9 +6604,18 @@ nav .icon-burger {
 
 @media (max-width: 426px) and (min-width: 395px){
 
+
+.stickk .linkk {
+
+
+    top: 63px;
+
+  }
+
+
 .stickk .navbar-brand {
     position: absolute;
-    top: 1%;
+    top: 4%;
 }
 
 .stickk {
@@ -6610,7 +6626,7 @@ nav .icon-burger {
     border-radius: 0;
     overflow: hidden;
     transition: all 0.5s ease;
-    height: 60px;
+    height: 64px;
 }
 
 
@@ -7188,9 +7204,17 @@ nav .icon-burger {
 @media (max-width: 395px) and (min-width: 360px){
 
 
+.stickk .linkk {
+
+
+    top: 63px;
+
+}
+
+
 .stickk .navbar-brand {
     position: absolute;
-    top: -7%;
+    top: -4%;
 }
 
 .stickk {
@@ -7201,7 +7225,7 @@ nav .icon-burger {
     border-radius: 0;
     overflow: hidden;
     transition: all 0.5s ease;
-    height: 60px;
+    height: 64px;
 }
 
 
