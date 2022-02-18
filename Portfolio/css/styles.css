@@ -4,6 +4,11 @@
     src: url("fonts/Sofia.otf") format("opentype");
 }
 
+@font-face {
+    font-family:'Sofia Pro', sans-serif; 
+    src: url("fonts/Sofiaa.woff") format("woff");
+}
+
 
 html {
   scroll-behavior: smooth;
