@@ -6653,8 +6653,12 @@ nav .icon-burger {
     font-weight: bold;
     margin-left: 3.7%;
     line-height: 1.35;
-    margin-bottom: 2.5%;
+    margin-bottom: 7%;
     align-content: left;
+}
+
+.projec {
+    margin-bottom: 8%;
 }
 
 .mh-skills .mh-professional-skill h3 {
@@ -6736,7 +6740,7 @@ nav .icon-burger {
 
 #music-title {
     margin-left: 3.7%;
-    margin-bottom: 3%;
+    margin-bottom: 7%;
     margin-right: 0;
     width: 94%;
 }
@@ -6809,6 +6813,11 @@ nav .icon-burger {
     color: black;
 }
 
+#aboutme-title {
+    margin-left: 3.7%;
+    margin-bottom: 5%;
+}
+
 #aboutme {
     display: flex;
     height: 1460px;
@@ -6821,7 +6830,7 @@ nav .icon-burger {
 
 #letmeknowyou {
     margin-top: 2.3%;
-    margin-bottom: 5%;
+    margin-bottom: 7%;
     margin-left: 3.1%;
     font-family: 'Sofia Pro', sans-serif;
     color: black;
@@ -7113,6 +7122,10 @@ nav .icon-burger {
     cursor: pointer;
 }
 
+.projec {
+    margin-bottom: 8%;
+}
+
 
 .abc span {
     padding-top: 0px;
@@ -7133,7 +7146,7 @@ nav .icon-burger {
     font-weight: bold;
     margin-left: 3.7%;
     line-height: 1.35;
-    margin-bottom: 2.5%;
+    margin-bottom: 7%;
     align-content: left;
 }
 
@@ -7216,7 +7229,7 @@ nav .icon-burger {
 
 #music-title {
     margin-left: 3.7%;
-    margin-bottom: 3%;
+    margin-bottom: 7%;
     margin-right: 0;
     width: 94%;
 }
@@ -7281,6 +7294,11 @@ nav .icon-burger {
     width: 100%;
 }
 
+#aboutme-title {
+    margin-left: 3.7%;
+    margin-bottom: 5%;
+}
+
 
 #about-text {
     font-family: 'Sofia Pro', sans-serif;
@@ -7308,7 +7326,7 @@ nav .icon-burger {
 
 #letmeknowyou {
     margin-top: 2.2%;
-    margin-bottom: 5%;
+    margin-bottom: 7%;
     margin-left: 3.1%;
     font-family: 'Sofia Pro', sans-serif;
     color: black;
