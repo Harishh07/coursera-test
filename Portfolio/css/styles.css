@@ -247,6 +247,8 @@ body {
 
 
 
+
+
 #main-content .container {
 
   margin:0;
@@ -3762,6 +3764,18 @@ nav .icon-burger{
 @media (max-width: 767px) {
 
 
+.fone {
+    border-bottom: 50px solid white;
+    overflow: hidden;
+}
+
+.phonee{
+
+  overflow: hidden;
+}
+
+
+
 .count{
 
  position: absolute;
@@ -4918,11 +4932,11 @@ nav .icon-burger{
 
 #sillycont{
 
- padding-top: 20% !important;
- padding-left: 0% !important;
+ padding-top: 8% !important;
+ padding-left: 5% !important;
  font-family:'Sofia Pro', sans-serif; 
  font-weight: 350 !important;
- font-size: 15px !important;
+ font-size: 19px !important;
  color: white;
 
 
@@ -4938,15 +4952,22 @@ nav .icon-burger{
 
 #sillycont-two{
 
- padding-top: 20% !important;
- padding-left: 0% !important;
+ padding-top: 8% !important;
+ padding-left: 5% !important;
  font-family:'Sofia Pro', sans-serif; 
- font-size: 15px !important;
+ font-size: 19px !important;
  color: white;
  font-weight: 350 !important;
 
 
 }
+
+#desc-two {
+    height: 260px !important;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
 
 #title-prog{
 
@@ -4964,7 +4985,7 @@ nav .icon-burger{
 
 #desc-one{
 
- height: 350px;
+ height: 250px !important;
  margin-bottom: 15px;
  overflow: hidden;
  padding-left: 3px !important;
@@ -5208,6 +5229,9 @@ nav .icon-burger{
   
   
 }
+
+
+
 
 .stickk #bb {
   color: white;
@@ -6003,6 +6027,33 @@ font-weight: bold;
  
 }
 
+#sillycont {
+    padding-top: 8% !important;
+    padding-left: 5% !important;
+    font-family: 'Sofia Pro', sans-serif;
+    font-weight: 350 !important;
+    font-size: 17px !important;
+    color: white;
+}
+
+#sillycont-two{
+
+ padding-top: 8% !important;
+ padding-left: 5% !important;
+ font-family:'Sofia Pro', sans-serif; 
+ font-size: 17px !important;
+ color: white;
+ font-weight: 350 !important;
+
+
+}
+
+#desc-two {
+    height: 260px !important;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
 
 
 }
@@ -6010,6 +6061,28 @@ font-weight: bold;
 
 
 @media (max-width: 479px) and (min-width: 426px){
+
+
+#sillycont-two{
+
+ padding-top: 8% !important;
+ padding-left: 5% !important;
+ font-family:'Sofia Pro', sans-serif; 
+ font-size: 16px !important;
+ color: white;
+ font-weight: 350 !important;
+
+
+}
+
+#desc-two {
+    height: 235px !important;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+
+
 
 
 #silly {
@@ -6101,6 +6174,21 @@ font-weight: bold;
 }
 
 
+#sillycont {
+    padding-top: 8% !important;
+    padding-left: 5% !important;
+    font-family: 'Sofia Pro', sans-serif;
+    font-weight: 350 !important;
+    font-size: 16px !important;
+    color: white;
+}
+
+#desc-one {
+    height: 210px !important;
+    margin-bottom: 15px;
+    overflow: hidden;
+    padding-left: 3px !important;
+}
 
 .navbar-brand{
 
@@ -6433,6 +6521,46 @@ nav .icon-burger {
 }
 
 @media (max-width: 426px) and (min-width: 395px){
+
+
+#sillycont-two{
+
+ padding-top: 8% !important;
+ padding-left: 5% !important;
+ font-family:'Sofia Pro', sans-serif; 
+ font-size: 15px !important;
+ color: white;
+ font-weight: 350 !important;
+
+
+}
+
+#desc-two {
+    height: 220px !important;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+
+
+
+
+
+#sillycont {
+    padding-top: 8% !important;
+    padding-left: 5% !important;
+    font-family: 'Sofia Pro', sans-serif;
+    font-weight: 350 !important;
+    font-size: 15px !important;
+    color: white;
+}
+
+#desc-one {
+    height: 200px !important;
+    margin-bottom: 15px;
+    overflow: hidden;
+    padding-left: 3px !important;
+}
 
 
 #ighead {
@@ -6931,6 +7059,54 @@ nav .icon-burger {
 
 @media (max-width: 395px) and (min-width: 360px){
 
+#sillycont-two{
+
+ padding-top: 8% !important;
+ padding-left: 5% !important;
+ font-family:'Sofia Pro', sans-serif; 
+ font-size: 15px !important;
+ color: white;
+ font-weight: 350 !important;
+
+
+}
+
+#desc-two {
+    height: 230px !important;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+
+
+
+
+#sillycont {
+    padding-top: 8% !important;
+    padding-left: 5% !important;
+    font-family: 'Sofia Pro', sans-serif;
+    font-weight: 350 !important;
+    font-size: 15px !important;
+    color: white;
+}
+
+#desc-one {
+    height: 230px !important;
+    margin-bottom: 15px;
+    overflow: hidden;
+    padding-left: 3px !important;
+}
+
+#two {
+    margin-top: 20px;
+    font-family: 'Sofia Pro', sans-serif;
+    color: white;
+    font-size: 44px!important;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+
 
 #ighead {
     font-family: 'Sofia Pro', sans-serif;
@@ -7326,7 +7502,7 @@ nav .icon-burger {
 
 #letmeknowyou {
     margin-top: 2.2%;
-    margin-bottom: 7%;
+    margin-bottom: 8%;
     margin-left: 3.1%;
     font-family: 'Sofia Pro', sans-serif;
     color: black;
