@@ -6092,8 +6092,19 @@ font-weight: bold;
     margin-bottom: 70px;
 }
 
+#idk {
+    margin-top: 20px;
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 17.5px;
+    font-weight: 500;
+    width: 90%;
+}
 
-
+#sh {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 18px;
+    font-weight: 1000;
+}
 
 #sillycont-two{
 
@@ -6147,7 +6158,7 @@ font-weight: bold;
     line-height: 1.25rem;
     text-transform: uppercase;
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 9px;
     margin-top: 40px !important;
 }
 
@@ -6557,7 +6568,26 @@ nav .icon-burger {
 @media (max-width: 426px) and (min-width: 395px){
 
 
+#idk {
+    margin-top: 20px;
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    width: 90%;
+}
 
+#sh {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 17.5px;
+    font-weight: 1000;
+}
+
+#sorry {
+    margin-top: 30px;
+    font-family: 'Sofia Pro', sans-serif;
+    opacity: 0.7;
+    font-size: 15px;
+}
 
 #two {
     margin-top: 20px;
@@ -6672,7 +6702,7 @@ nav .icon-burger {
     line-height: 1.25rem;
     text-transform: uppercase;
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 9px;
     margin-top: 40px !important;
 }
 
@@ -7110,6 +7140,20 @@ nav .icon-burger {
 @media (max-width: 395px) and (min-width: 360px){
 
 
+#idk {
+    margin-top: 20px;
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 17.4px;
+    font-weight: 500;
+    width: 90%;
+}
+
+#sh {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 17.5px;
+    font-weight: 1000;
+}
+
 
 #sillycont-two{
 
@@ -7181,9 +7225,17 @@ nav .icon-burger {
     line-height: 1.25rem;
     text-transform: uppercase;
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 9px;
     margin-top: 40px !important;
 }
+
+#sorry {
+    margin-top: 30px;
+    font-family: 'Sofia Pro', sans-serif;
+    opacity: 0.7;
+    font-size: 15px;
+}
+
 
 #webd {
     font-family: 'Sofia Pro', sans-serif; 
