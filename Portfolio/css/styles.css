@@ -14,7 +14,12 @@
     src: local('Sofia Pro Regular'), local('Sofia-Pro-Regular'),
         url('SofiaProRegular.woff2') format('woff2'),
         url('SofiaProRegular.woff') format('woff'),
-        url('SofiaProRegular.ttf') format('truetype');
+        url('SofiaProRegular.ttf') format('truetype'),
+
+        url('fonts/SofiaProRegular.woff2') format('woff2'),
+        url('fonts/SofiaProRegular.woff') format('woff'),
+        url('fonts/SofiaProRegular.ttf') format('truetype'),
+        ;
     font-style: normal;
   }
 
