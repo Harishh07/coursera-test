@@ -6003,7 +6003,7 @@ font-weight: bold;
  font-family:'Sofia Pro', sans-serif;   
  top: 47%;
  font-weight: 300 !important;
- left: 70% !important;
+ left: 68.3% !important;
  transform: translate(-50%,-50%);
  color: #fff;
  font-weight: 400 !important;
@@ -6073,13 +6073,43 @@ font-weight: bold;
     overflow: hidden;
 }
 
+.stickk {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    border: 0;
+    border-radius: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    height: 60px;
+}
 
+.stickk .navbar-brand {
+    position: absolute;
+    top: 12%;
+}
 
 }
 
 
 
 @media (max-width: 479px) and (min-width: 426px){
+
+.stickk .navbar-brand {
+    position: absolute;
+    top: 1%;
+}
+
+.stickk {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    border: 0;
+    border-radius: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    height: 60px;
+}
 
 
 #two {
@@ -6271,7 +6301,7 @@ font-weight: bold;
     animation: text 2s 1 forwards;
     font-family: 'Sofia Pro', sans-serif;
     color: white;
-    font-size: 50px;
+    font-size: 49px;
     font-weight: bold;
     margin-top: 0;
     margin-bottom: 0;
@@ -6567,6 +6597,24 @@ nav .icon-burger {
 
 @media (max-width: 426px) and (min-width: 395px){
 
+.stickk .navbar-brand {
+    position: absolute;
+    top: 1%;
+}
+
+.stickk {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    border: 0;
+    border-radius: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    height: 60px;
+}
+
+
+
 
 #idk {
     margin-top: 20px;
@@ -6751,7 +6799,7 @@ nav .icon-burger {
  font-family:'Sofia Pro', sans-serif;   
  top: 47%;
  font-weight: 300 !important;
- left: 66% !important;
+ left: 67.3% !important;
  transform: translate(-50%,-50%);
  color: #fff;
  font-weight: 400 !important;
@@ -6814,7 +6862,7 @@ nav .icon-burger {
     animation: text 2s 1 forwards;
     font-family: 'Sofia Pro', sans-serif;
     color: white;
-    font-size: 50px;
+    font-size: 49px;
     font-weight: bold;
     margin-top: 0;
     margin-bottom: 0;
@@ -7140,6 +7188,25 @@ nav .icon-burger {
 @media (max-width: 395px) and (min-width: 360px){
 
 
+.stickk .navbar-brand {
+    position: absolute;
+    top: -7%;
+}
+
+.stickk {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    border: 0;
+    border-radius: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    height: 60px;
+}
+
+
+
+
 #idk {
     margin-top: 20px;
     font-family: 'Sofia Pro', sans-serif;
@@ -7308,13 +7375,13 @@ nav .icon-burger {
 
 .portfolio{
 
- font-size: 34px !important;
+ font-size: 32px !important;
  width: 100%;
  position: absolute; 
  font-family:'Sofia Pro', sans-serif;   
  top: 47%;
  font-weight: 300 !important;
- left: 65% !important;
+ left: 68.2% !important;
  transform: translate(-50%,-50%);
  color: #fff;
  font-weight: 400 !important;
@@ -7377,7 +7444,7 @@ nav .icon-burger {
     animation: text 2s 1 forwards;
     font-family: 'Sofia Pro', sans-serif;
     color: white;
-    font-size: 50px;
+    font-size: 49px;
     font-weight: bold;
     margin-top: 0;
     margin-bottom: 0;
