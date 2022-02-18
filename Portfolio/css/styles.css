@@ -6089,11 +6089,38 @@ font-weight: bold;
     top: 18%;
 }
 
+#preig {
+    font-family: "Helvetica Now Display DW",sans-serif;
+    font-weight: 350;
+    letter-spacing: .3em;
+    color: #878a8f;
+    font-size: 16px;
+    line-height: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
 }
 
 
 
 @media (max-width: 479px) and (min-width: 426px){
+
+
+#preig {
+    font-family: "Helvetica Now Display DW",sans-serif;
+    font-weight: 350;
+    letter-spacing: .3em;
+    color: #878a8f;
+    font-size: 16px;
+    line-height: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+
 
 .stickk .navbar-brand {
     position: absolute;
@@ -6603,6 +6630,18 @@ nav .icon-burger {
 }
 
 @media (max-width: 426px) and (min-width: 395px){
+
+#preig {
+    font-family: "Helvetica Now Display DW",sans-serif;
+    font-weight: 350;
+    letter-spacing: .3em;
+    color: #878a8f;
+    font-size: 16px;
+    line-height: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
 
 
 .stickk .linkk {
@@ -7202,6 +7241,19 @@ nav .icon-burger {
 }
 
 @media (max-width: 395px) and (min-width: 360px){
+
+
+#preig {
+    font-family: "Helvetica Now Display DW",sans-serif;
+    font-weight: 350;
+    letter-spacing: .3em;
+    color: #878a8f;
+    font-size: 16px;
+    line-height: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
 
 
 .stickk .linkk {
