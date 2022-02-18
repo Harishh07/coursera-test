@@ -1,12 +1,14 @@
 
 @font-face {
     font-family:'Sofia Pro'; 
-    src: url("fonts/Sofia.otf") format("opentype");
+    src: url("fonts/Sofia.otf") format("opentype"),
+         url("Sofia.otf") format("opentype");
 }
 
 @font-face {
     font-family:'Sofia Pro';
-    src: url("fonts/Sofiaa.woff") format("woff");
+    src: url("fonts/Sofiaa.woff") format("woff"),
+         url("Sofiaa.woff") format("woff");
 }
 
 @font-face {
