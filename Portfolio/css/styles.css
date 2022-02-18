@@ -1,4 +1,10 @@
 
+@font-face {
+    font-family:'Sofia Pro', sans-serif; 
+    src: url("fonts/Sofia.otf") format("opentype");
+}
+
+
 html {
   scroll-behavior: smooth;
 }
