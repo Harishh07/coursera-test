@@ -9,6 +9,17 @@
     src: url("fonts/Sofiaa.woff") format("woff");
 }
 
+@font-face {
+    font-family: 'Sofia Pro';
+    src: local('Sofia Pro Regular'), local('Sofia-Pro-Regular'),
+        url('SofiaProRegular.woff2') format('woff2'),
+        url('SofiaProRegular.woff') format('woff'),
+        url('SofiaProRegular.ttf') format('truetype');
+    font-style: normal;
+  }
+
+
+
 
 html {
   scroll-behavior: smooth;
