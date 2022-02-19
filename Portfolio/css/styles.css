@@ -6024,6 +6024,11 @@ font-weight: bold;
 
 @media (max-width: 506px) and (min-width: 479px){
 
+.projec {
+    margin-bottom: 6%;
+    margin-top: 3%;
+}
+
 #plattforms {
     font-family: 'Sofia Pro', sans-serif;
     font-size: 40px;
@@ -6421,7 +6426,7 @@ nav .icon-burger {
 
 .projec {
     margin-bottom: 9%;
-    margin-top: 2%;
+    margin-top: 6%;
 }
 
 .abc span {
@@ -7027,7 +7032,7 @@ nav .icon-burger {
 
 .projec {
     margin-bottom: 8%;
-    margin-top: 2%;
+    margin-top: 6%;
 }
 
 .mh-skills .mh-professional-skill h3 {
@@ -7608,7 +7613,7 @@ nav .icon-burger {
 
 .projec {
     margin-bottom: 8%;
-    margin-top: 2%;
+    margin-top: 6%;
 }
 
 
