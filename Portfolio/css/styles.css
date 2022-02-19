@@ -6024,6 +6024,20 @@ font-weight: bold;
 
 @media (max-width: 506px) and (min-width: 479px){
 
+#plattforms {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    background: white;
+    padding-top: 10px;
+    padding-left: 3%;
+    padding-bottom: 1%;
+    height: 525px;
+    width: 100%;
+}
+
+
 .portfolio{
 
  font-size: 40px !important;
@@ -6135,6 +6149,20 @@ font-weight: bold;
 
 
 @media (max-width: 479px) and (min-width: 426px){
+
+
+#plattforms {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    background: white;
+    padding-top: 5px;
+    padding-left: 3%;
+    padding-bottom: 1%;
+    height: 525px;
+    width: 100%;
+}
 
 
 #preig {
@@ -7125,6 +7153,7 @@ nav .icon-burger {
     background: white;
     padding-left: 3%;
     padding-bottom: 1%;
+    padding-top: 5px;
     height: 460px;
     width: 100%;
 }
@@ -7727,6 +7756,7 @@ nav .icon-burger {
     font-weight: bold;
     color: black;
     background: white;
+    padding-top: 5px;
     padding-left: 3%;
     padding-bottom: 1%;
     height: 440px;
