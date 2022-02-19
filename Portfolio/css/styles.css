@@ -6027,6 +6027,17 @@ font-weight: bold;
 
 @media (max-width: 506px) and (min-width: 479px){
 
+.abc span {
+    padding-top: 0px;
+    color: white;
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 85px;
+    margin-left: 2.4%;
+    font-weight: bold;
+    line-height: 1.35;
+}
+
+
 .projec {
     margin-bottom: 6%;
     margin-top: 3%;
@@ -6150,7 +6161,7 @@ font-weight: bold;
     line-height: 1.25rem;
     text-transform: uppercase;
     margin-top: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
 }
 
 }
@@ -6194,7 +6205,7 @@ font-weight: bold;
     line-height: 1.25rem;
     text-transform: uppercase;
     margin-top: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 
@@ -6441,7 +6452,7 @@ nav .icon-burger {
 
 .projec {
     margin-bottom: 9%;
-    margin-top: 6%;
+    margin-top: 4.5%;
 }
 
 .abc span {
@@ -6730,7 +6741,7 @@ nav .icon-burger {
     line-height: 1.25rem;
     text-transform: uppercase;
     margin-top: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 
@@ -7060,7 +7071,7 @@ nav .icon-burger {
 
 .projec {
     margin-bottom: 8%;
-    margin-top: 6%;
+    margin-top: 4.5%;
 }
 
 .mh-skills .mh-professional-skill h3 {
@@ -7355,7 +7366,7 @@ nav .icon-burger {
     line-height: 1.25rem;
     text-transform: uppercase;
     margin-top: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 
@@ -7652,7 +7663,7 @@ nav .icon-burger {
 
 .projec {
     margin-bottom: 8%;
-    margin-top: 6%;
+    margin-top: 4.5%;
 }
 
 
