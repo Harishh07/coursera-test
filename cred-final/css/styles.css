@@ -1,0 +1,680 @@
+
+@font-face {
+    font-family:'Sofia Pro'; 
+    src: url("fonts/Sofia.otf") format("opentype"),
+         url("Sofia.otf") format("opentype");
+}
+
+@font-face {
+    font-family:'Sofia Pro';
+    src: url("fonts/Sofiaa.woff") format("woff"),
+         url("Sofiaa.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: local('Sofia Pro Regular'), local('Sofia-Pro-Regular'),
+        url('SofiaProRegular.woff2') format('woff2'),
+        url('SofiaProRegular.woff') format('woff'),
+        url('SofiaProRegular.ttf') format('truetype'),
+
+        url('fonts/SofiaProRegular.woff2') format('woff2'),
+        url('fonts/SofiaProRegular.woff') format('woff'),
+        url('fonts/SofiaProRegular.ttf') format('truetype'),
+        ;
+    font-style: normal;
+  }
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 16px;
+  color: black;
+  background-color: rgb(15, 15, 15) !important;
+  font-family: 'Oxygen', sans-serif;
+}
+
+
+
+.slideshow-container {
+  position: relative;
+  background: black;
+  border: 10px solid black;
+}
+
+
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+
+
+.author {color: cornflowerblue;}
+
+.mySlides q{
+
+  color: white;
+  font-family: Sofia Pro,sans-serif;
+  font-weight: 350;
+  font-size: 22px;
+
+}
+
+.mySlides p{
+
+  color: white;
+  font-family: Sofia Pro,sans-serif;
+  font-size: 20px;
+
+}
+
+
+#img1{
+
+  position: relative;
+  animation: first 5s 3;
+  z-index: 1000;
+  left: -100px;
+  top: 45px;
+}
+
+#img2{
+
+  position: relative;
+  animation:second 5s 3; 
+  z-index: 100000;
+  top:15px;
+}
+
+#img3{
+  position: relative;
+  animation: third 5s 3;
+   top: 45px;
+    right: -100px;
+}
+#img4{
+  position: relative;
+  animation: fo 5s 3;
+}
+
+#img5{
+  position: relative;
+  animation: fi 5s 3;
+}
+
+
+@keyframes first {
+
+  0%{
+
+   left:180px;
+   top: 200px;
+  }
+
+  
+  100%{
+
+    left: -100px;
+    top: 45px;
+  }
+}
+
+@keyframes second {
+  0%{
+
+   top: 200px;
+
+  }
+
+
+
+  100%{
+
+    top:15px;
+  }
+}
+
+@keyframes third {
+  0%{
+
+   right: 180px;
+   top: 200px;
+  }
+
+
+  100%{
+    top: 45px;
+    right: -100px;
+  }
+}
+
+@keyframes fo{
+
+  0%{
+
+   right: 100px;
+   top: 200px;
+  }
+
+
+  100%{
+    top: 45px;
+    right: -100px;
+  }
+
+}
+
+@keyframes fi{
+
+  0%{
+
+   right: 100px;
+   top: 200px;
+  }
+
+
+  100%{
+    top: 45px;
+    right: -100px;
+  }
+  
+}
+
+input[type=checkbox]{
+
+  margin-top: 0;
+  visibility: hidden;
+
+}
+
+ nav {
+  background-color: white;
+  border-radius: 0;
+  border: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  
+}
+
+
+
+.navbar-default {
+  background-color: rgb(15, 15, 15);
+  border-color: white;
+  
+}
+
+
+.containerer{
+
+  margin-right: 40px;
+  margin-left: 40px;
+
+
+}
+
+#bb:hover{
+
+
+  transition: 0.5s ease all;
+
+}
+
+.stickk #bb:hover{
+
+  transition: 0.5s ease all;
+
+}
+
+.stickk #bb {
+  color: white;
+  text-align: center;
+  opacity: 100%;
+  animation: menu 2s 1 forwards;
+}
+
+#nav-list {
+  top: 15%;
+  position: absolute;
+  left: 60.5%;
+  font-weight: bold;
+  font-family: Copperplate Gothic Light;
+  color: black;
+}
+
+
+#cred{
+  background-color: rgb(39, 39, 39);
+  text-align: center;
+  font-family: 'Sofia Pro', sans-serif; 
+  color: white;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#arrow{
+  text-decoration: none;
+}
+
+.form{
+
+  margin-top: 100px;
+
+
+}
+
+#form-title{
+
+   font-family: 'Sofia Pro', sans-serif; 
+   font-size: 10rem;
+   color: white;
+   font-weight: 390;
+   margin-bottom: 30px;
+   padding-left: 200px;
+   padding-right: 200px;
+   line-height: 120px;
+   font-weight: bold;
+
+}
+
+.form-desc{
+
+   font-family: 'Sofia Pro', sans-serif; 
+  font-size: 30px !important;
+  color: white !important;
+  font-weight: bold;
+  
+
+}
+
+
+#form-button{
+
+  margin-top: 50px;
+  margin-bottom: 120px;
+
+}
+
+#touch{
+  border-radius: 37px;
+  height: 80px;
+  font-size: 26px;
+  width: 350px;
+  font-weight: bold;
+  font-family: 'Sofia Pro', sans-serif;                               
+
+}
+
+
+#sofa{
+
+  overflow: hidden;
+  object-fit: cover;
+  height: 900px;
+}
+
+#anim{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden !important;
+
+}
+
+#stick{
+
+  overflow: hidden;
+
+}
+
+#stick {
+
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.centered {
+  position: absolute;
+  color: white;
+  top: 255%;
+  left: 40%;
+  margin-left: 50px;
+  font-family: 'Sofia Pro', sans-serif;  
+  font-size: 100px;
+  font-weight: bold;
+  padding-right: 200px;
+  width: 840px;
+  line-height: 100px;
+  z-index: 1000;
+  padding-top: 100px;
+  transform: translate(-50%, -50%);
+}
+.centeredd {
+  position: absolute;
+  color: white;
+  top: 650%;
+  left: 40%;
+  margin-left: 50px;
+  font-family: 'Sofia Pro', sans-serif;  
+  font-size: 100px;
+  font-weight: bold;
+  padding-right: 200px;
+  width: 840px;
+  line-height: 100px;
+  z-index: 1000;
+  padding-top: 100px;
+  transform: translate(-50%, -50%);
+}
+.centet {
+  position: absolute;
+  color: white;
+  top: 525%;
+  left: 40%;
+  margin-left: 50px;
+  font-family: 'Sofia Pro', sans-serif;  
+  font-size: 100px;
+  font-weight: bold;
+  padding-right: 200px;
+  width: 840px;
+  line-height: 100px;
+  z-index: 1000;
+  padding-top: 100px;
+  transform: translate(-50%, -50%);
+}
+.ce {
+  position: absolute;
+  color: white;
+  top: 270%;
+  left: 40%;
+  margin-left: 50px;
+  font-family: 'Sofia Pro', sans-serif;  
+  font-size: 32px;
+  font-weight: bold;
+  padding-right: 200px;
+  width: 840px;
+  line-height: 100px;
+  z-index: 1000;
+  padding-top: 100px;
+  transform: translate(-50%, -50%);
+}
+.cen{
+  position: absolute;
+  color: white;
+  top: 280%;
+  left: 40%;
+  margin-left: 50px;
+  font-family: 'Sofia Pro', sans-serif;  
+  font-size: 18px;
+  font-weight: bold;
+  padding-right: 200px;
+  width: 840px;
+  
+  z-index: 1000;
+  padding-top: 100px;
+  transform: translate(-50%, -50%);
+}
+
+
+.centt{
+  position: absolute;
+  
+  top: 280%;
+  left: 20%;
+  margin-left: 50px;
+  font-family: 'Sofia Pro', sans-serif;  
+  font-size: 18px;
+  font-weight: bold;
+  padding-right: 200px;
+
+  
+  z-index: 1000;
+  padding-top: 100px;
+  transform: translate(-50%, -50%);
+}
+#txt1{
+
+  color: white;
+  font-family: 'Sofia Pro', sans-serif;  
+  font-size: 100px;
+}
+#txt11{
+
+  color: white;
+  font-family: 'Sofia Pro', sans-serif;  
+  font-size: 90px;
+}
+
+#txt2{
+  padding-top: 20px;
+  color: white;
+  font-family: 'Sofia Pro', sans-serif;  
+  font-size: 35px;
+  line-height: 60px;
+}
+
+#txt3{
+  padding-top: 20px;
+  color: white;
+  font-family: 'Sofia Pro', sans-serif;  
+  font-size: 18px;
+  line-height: 30px;
+}
+#txt4{
+
+  border-radius: 37px;
+  height: 80px;
+  font-size: 28px;
+  width: 300px;
+  color: black;
+  background: white;
+  border: white;
+  font-weight: bold;
+  font-family: 'Sofia Pro', sans-serif;                               
+
+}
+
+
+
+.navbar{
+
+  border: 0;
+}
+
+.navbar-brand {
+  
+  position: absolute;
+  top:18%;
+  height: auto;
+  padding-left: 0;
+  left: 19.4%;
+}
+
+.stickk .navbar-brand {
+  
+  position: absolute;
+  top: 15%;
+
+}
+
+.navbar-brand h1 {
+  animation: text 2s 1 forwards;
+  font-family: 'Sofia Pro', sans-serif;                               
+  color: white !important;
+  font-size: 60px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  
+  
+}
+
+@keyframes animate{
+
+ 0%{
+    opacity: 0%;
+  }
+
+ 100%{
+    opacity: 100%;
+  }
+
+}
+
+
+#bb {
+  color: white !important;
+  text-align: center;
+  opacity: 100%;
+  font-family: 'Sofia Pro', sans-serif; 
+  animation: menu 2s 1 forwards;
+}
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  
+
+
+
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+ 
+  
+
+
+
+
+
+/********** Small devices only **********/
+@media (min-width: 767px) and (max-width: 991px) {
+
+
+#form-title{
+
+   font-family: 'Sofia Pro', sans-serif; 
+   font-size: 10rem;
+   color: white;
+   font-weight: 390;
+   margin-bottom: 30px;
+   padding-left: 100px;
+   padding-right: 100px;
+   line-height: 120px;
+   font-weight: bold;
+
+}
+
+
+  #header-nav {
+ 
+  border-radius: 0;
+  border: 0;
+  margin-bottom: 60px;
+  /*overflow: hidden;
+  position: fixed;*/
+  width: 100%;
+  height: 73px;
+
+
+}
+
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+
+
+
+
+}
+
+
+
+
+  /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+  @media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+   /* font-size: 6vw; */
+
+   }
+
+   #form-title {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 30px !important;
+    color: white;
+    font-weight: 390;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    padding-right: 40px !important;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+
+#txt1 {
+    color: white;
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 30px;
+}
+
+
+.centered {
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 225%;
+    left: 40%;
+    margin-left: 50px;
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    padding-right: 0px;
+    width: 840px;
+    line-height: 100px;
+    z-index: 1000;
+    padding-top: 100px;
+    transform: translate(-50%, -50%);
+}
+
+#txt2 {
+    padding-top: 20px;
+    color: white;
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 30px;
+    line-height: 60px;
+    text-align: center;
+}
+ 
+ 
+.col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+
+}  
