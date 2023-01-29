@@ -1,0 +1,7982 @@
+
+@font-face {
+    font-family:'Sofia Pro'; 
+    src: url("fonts/Sofia.otf") format("opentype"),
+         url("Sofia.otf") format("opentype");
+}
+
+@font-face {
+    font-family:'Sofia Pro';
+    src: url("fonts/Sofiaa.woff") format("woff"),
+         url("Sofiaa.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: local('Sofia Pro Regular'), local('Sofia-Pro-Regular'),
+        url('SofiaProRegular.woff2') format('woff2'),
+        url('SofiaProRegular.woff') format('woff'),
+        url('SofiaProRegular.ttf') format('truetype'),
+
+        url('fonts/SofiaProRegular.woff2') format('woff2'),
+        url('fonts/SofiaProRegular.woff') format('woff'),
+        url('fonts/SofiaProRegular.ttf') format('truetype'),
+        ;
+    font-style: normal;
+  }
+
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  font-family: 'Oxygen', sans-serif;
+}
+
+
+#heart{
+ 
+ font-size: 19px;
+ opacity: 0.9;
+
+}
+/* preloader 
+
+
+.p{
+ 
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: black;
+
+}
+
+.pace{
+
+ pointer-events: none;
+ user-select: none;
+ z-index: 2;
+ position: fixed;
+ margin:auto;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ width: 400px;
+ border:0px;
+ height: 1px;
+ overflow: hidden;
+ background: grey;
+
+
+}
+
+.pace .pace-progress{
+
+  box-sizing: border-box;
+  transform: translate3d(0,0,0);
+  max-width: 400px;
+  position: absolute;
+  z-index: 2;
+  display: block;
+  top: 0;
+  right: 100%;
+  height: 100%;
+  width: 100%;
+  background: grey;
+}
+
+.pace.pace-inactive{
+
+ display: none;
+
+
+}
+
+.preloader{
+
+ width: 100%;
+ height: 100vh;
+ background: #101010;
+ overflow: hidden;
+ position: fixed;
+ transition-timing-function: cubic-bezier(0.19,1,0.22,1);
+
+
+}
+
+
+
+
+
+ /*END PRELOADER */
+
+
+.portfolio{
+
+ font-size: 48px;
+ position: absolute; 
+ font-family:'Sofia Pro', sans-serif;   
+ top: 47%;
+ font-weight: 300 !important;
+ left: 50%;
+ transform: translate(-50%,-50%);
+ color: #fff;
+ font-weight: 400 !important;
+ mix-blend-mode: difference;
+ 
+}
+.portf{
+
+ font-size: 20px;
+ position: absolute; 
+ font-family:Josefin Sans;   
+ top: 58%;
+ font-weight: 300 !important;
+ left: 50%;
+ transform: translate(-50%,-50%);
+ color: #fff;
+ font-weight: 400 !important;
+ mix-blend-mode: difference;
+ letter-spacing: 1px;
+ animation: blinker 1.7s infinite !important;
+ 
+}
+
+@keyframes blinker {
+    
+  0%{
+
+    opacity: 0;
+
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100%{
+
+    opacity: 0;
+
+
+  }
+
+
+}
+
+
+.pre{
+
+ overflow: hidden;
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ background: #020a17;
+ pointer-events: none;
+ animation: fadeout .5s linear forwards;
+ z-index: 2000;
+ animation-delay: 8.5s;
+ 
+}
+
+
+
+
+
+@keyframes fadeout
+{
+
+  0%{
+
+    opacity: 1;
+  }
+  100%{
+
+    opacity: 0;
+  }
+
+
+
+}
+
+
+.loader{
+ 
+ position: absolute;
+ top: 0;
+ height: 1%;
+ background: white;
+
+}
+
+.count{
+
+ position: absolute;
+ top: 94%;
+ left: 2.28%;
+ transform: translate(-50%,-50%);
+ font-size: 100px;
+ color: #fff;
+ font-weight: 600;
+ mix-blend-mode: difference;
+ width: 400px;
+ text-align: right;
+ font-family: Josefin Sans; 
+
+}
+
+
+
+.spinner{
+
+ background-color: black;
+ width: 100%;
+ height: 100%;
+
+}
+
+.sp-text{
+
+ 
+ font-family:'Sofia Pro', sans-serif;    
+ font-family: 130px;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ color: white;
+
+}
+
+
+
+/*  PRELOADER END  */
+
+#main-content{
+
+
+ height: 840px;
+ background-color: grey;
+ margin: 0 !important;
+ padding: 0 !important; 
+
+
+}
+
+
+
+
+
+
+#main-content .container {
+
+  margin:0;
+
+
+}
+
+video{
+
+   width: 100%;
+   background-attachment: fixed;
+   top: 0;
+   left: 0;
+   object-fit: cover;
+   height: 100%;
+   position: absolute;
+   pointer-events: none;
+}
+
+.vidd{
+
+  position: relative;
+  display: flex;
+  width: 100%;
+  margin-top:0;
+  min-height: 100vh;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-contents{
+
+  display: flex;
+  height: 697px;
+  margin-top: 0px;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+
+}
+
+.hellotxt{
+
+  padding: 0;
+
+
+}
+
+
+
+/*////////////////////////////*/
+
+.navbar{
+ 
+
+}
+
+nav .linkk {
+  float: right;
+  padding: 0;
+  margin: 0;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+nav .linkk li {
+  list-style: none;
+}
+.linkk a {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  opacity: 0.99;
+  text-decoration: none;
+
+}
+.linkk a:hover {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  opacity: 0.29;
+  text-decoration: none;
+  transition: 0.4s ease all;
+
+}
+#nav-togglee {
+  position: absolute;
+  top: -100px;
+}
+nav .icon-burger {
+  display: none;
+  position: absolute;
+  margin-top: 0px;
+  right: 3.4%;
+  top: 40%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+nav .icon-burger .line {
+  width: 40px;
+  height: 4px;
+  background-color: black;
+  margin: 5px;
+  border-radius: 4px;
+  transition: all .3s ease-in-out;
+}
+
+#ll{
+
+ width: 39px;
+ margin-left: 15px;
+
+}
+
+  
+ nav .linkk {
+    float: none;
+    position: fixed;
+    z-index: 9;
+    left: 100;
+    right: 0;
+    top: 90px;
+    bottom: 100%;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgba(0,0,0,.86);
+    overflow: hidden;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 28px;
+    box-sizing: border-box;
+    border-left: 10px solid #000000;
+    border-right: 10px solid #000000;
+
+    transition: all .5s ease-in-out;
+  }
+  nav .linkk a {
+    font-size: 18px !important;
+    font-family: Josefin Sans !important;
+  }
+  nav :checked ~ .linkk {
+    bottom: 0;
+  }
+  nav .icon-burger {
+    display: block;
+  }
+  nav :checked ~ .icon-burger .line:nth-child(1) {
+    transform: translateY(10px) rotate(225deg);
+  }
+  nav :checked ~ .icon-burger .line:nth-child(3) {
+    transform: translateY(-10px) rotate(-225deg);
+  }
+  nav :checked ~ .icon-burger .line:nth-child(2) {
+    opacity: 0;
+  }
+  
+
+ .vis{
+
+    visibility: hidden;
+
+  }
+
+
+.collapse {
+  &:not(.show) {
+    display: none;
+  }
+}
+
+.collapsing {
+  height: 0;
+  overflow: hidden;
+  @include transition($transition-collapse);
+}
+
+
+
+
+input[type=checkbox]{
+
+  margin-top: 0;
+  visibility: hidden;
+
+}
+
+
+
+
+/*//////////////////////////////*/
+
+
+
+
+
+
+/** HEADER **/
+ nav {
+  background-color: white;
+  border-radius: 0;
+  border: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  
+}
+
+
+
+.navbar-default {
+  background-color: white;
+  border-color: white;
+  
+}
+
+
+.stickk {
+
+  background-color: black; 
+  
+  position: fixed;
+  top: 0;
+  border: 0;
+  border-radius: 0;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  height: 73px;
+
+} 
+
+.stickk #navline{
+  
+  visibility: hidden;
+}
+
+
+.stickk .navbar-brand h1 { /* Name */
+  animation: text 2s 1 forwards;
+  font-family: 'Sofia Pro', sans-serif;                               
+  color: white;
+  font-size: 57px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .38;
+  
+  
+}
+
+
+.containerer{
+
+  margin-right: 40px;
+  margin-left: 40px;
+
+
+}
+
+#bb:hover{
+
+
+  transition: 0.5s ease all;
+
+}
+
+.stickk #bb:hover{
+
+  transition: 0.5s ease all;
+
+}
+
+.stickk #bb {
+  color: white;
+  text-align: center;
+  opacity: 100%;
+  animation: menu 2s 1 forwards;
+}
+
+.stickk .icon-burger .line {
+  width: 40px;
+  height: 4px;
+  background-color: white;
+  margin: 5px;
+  border-radius: 4px;
+  transition: all .3s ease-in-out;
+}
+
+
+.stickk #nav-list {
+  top: 0.1%;
+  position: absolute;
+  left: 40.5%;
+  font-weight: bold;
+  font-family: Copperplate Gothic Light;
+  color: black;
+}
+
+#nav-list {
+  top: 10%;
+  position: absolute;
+  left: 40.5%;
+  font-weight: bold;
+  font-family: Copperplate Gothic Light;
+  color: black;
+}
+
+.stickk .linkk {
+    float: none;
+    position: fixed;
+    z-index: 9;
+    left: 100;
+    right: 0;
+    top: 70px;
+    bottom: 100%;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgba(0,0,0,.86);
+    overflow: hidden;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 30px;
+    box-sizing: border-box;
+    border-left: 10px solid #000000;
+    border-right: 10px solid #000000;
+    transition: all .5s ease-in-out;
+  }
+
+
+/*
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: 0.5s ease;
+  background: black;
+} 
+
+.affix{
+  
+   top: 0;
+   width: 100%;
+   z-index: 9999 !important;
+
+}
+.affix + .container-fluid{
+
+   padding-top: 70px;
+}
+*/
+
+
+#logo-img {
+  background: url('../images/me.jpg') no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
+}
+
+.navbar{
+
+  border: 0;
+}
+
+.navbar-brand {
+  
+  position: absolute;
+  top: 8%;
+  height: auto;
+  padding-left: 0;
+  left: 3.4%;
+}
+
+.stickk .navbar-brand {
+  
+  position: absolute;
+  top: 15%;
+
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  animation: text 2s 1 forwards;
+  font-family: 'Sofia Pro', sans-serif;                               
+  color: black;
+  font-size: 60px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  
+  
+}
+
+@keyframes animate{
+
+ 0%{
+    opacity: 0%;
+  }
+
+ 100%{
+    opacity: 100%;
+  }
+
+}
+
+.navbar-brand hr {
+    width: 400px;
+   
+    height: 4px;
+    left: 100%;
+    animation: text 3s 1 forwards;
+    /*animation: text 2s 1 forwards;*/
+}
+
+@keyframes text {
+  
+  0%{
+    left: 0%;
+    width: 0px;
+  }
+
+  100%{
+    left: 100%;
+    width: 400px;
+  }
+
+}
+
+.news{
+  
+  margin-right: 0;
+  margin-top: 50px;
+  font-family: 'Sofia Pro', sans-serif;                               
+  color: black;
+  font-weight: bold;
+
+}
+
+.news span {
+ 
+  font-family: 'Sofia Pro', sans-serif;                               
+  color: black;
+  font-size: 30px;
+
+}
+
+#maill{
+
+  color: white;
+  font-size: 20px;
+}
+
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { /* Kosher cert */
+  color: black;
+  text-transform: uppercase;
+  font-size: .9em;
+  font-weight: bold;
+  margin-top: 15px;
+  font-family: centaur;
+}
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+
+}
+
+
+
+
+#bb {
+  color: black;
+  text-align: center;
+  opacity: 100%;
+  animation: menu 2s 1 forwards;
+}
+
+
+
+
+
+
+@keyframes menu{
+  0%{
+    opacity: 0%;
+  }
+
+ 100%{
+    opacity: 100%;
+  }
+
+}
+
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+#phone {
+  margin-top: 5px;
+}
+#phone a { /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+}
+#phone div { /* We Deliver */
+  color: black;
+  text-align: right;
+  padding-right: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+
+.container .jumbotron{
+
+  padding: 0;
+}
+
+.jumbotron{
+  
+   padding-top: 0;
+   padding-bottom: 0;
+   margin-bottom: 0;
+   padding: 0;
+   margin-top: -17px;
+   margin-right: 0;
+   overflow: hidden;
+   width: 45%; 
+   animation: jumbo 3s 1 forwards;
+   background-color: white;
+  
+
+}
+
+#jumbo{
+
+
+
+}
+
+@keyframes jumbo {
+
+ 0%{
+    opacity: 0%;
+  }
+
+ 100%{
+    opacity: 100%;
+  }
+
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000000;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -60px;
+
+}
+
+#nav-list a:hover{
+  color: #757575;
+
+
+}
+
+/*BODY*/
+
+#hellotext{
+ 
+ font-family:'Sofia Pro', sans-serif; 
+ font-size: 60px;
+ width: 45%;
+ font-weight: 650;
+ opacity: 100%;
+ animation: abouttext 2s 1 forwards;
+ margin-top: 160px;
+ margin-left: 6%;
+
+}
+
+#contt{
+
+ font-family:'Sofia Pro', sans-serif; 
+ font-size: 33.3%;
+ font-weight: 400;
+ width: 85%;
+ margin-bottom: 20px;
+ color: grey;
+
+}
+
+#home-links{
+
+ font-family:'Sofia Pro', sans-serif; 
+ font-size: 20px;
+ font-weight: 350;
+ width: 600px;
+ color: grey;
+
+
+}
+
+#linkedd{
+
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+
+}
+
+#linkedd:hover{
+ 
+ border-bottom: 2.5px solid black;
+ text-decoration: none;
+ transition: 0.1s ease all;
+
+
+}
+
+.name-me{
+
+ font-family: "Helvetica Now Display DW",sans-serif;
+
+ font-weight: 350;
+ letter-spacing: .4em;
+ color: #878a8f;
+ font-size: 18px; 
+ line-height: 1.25rem;
+ text-transform: uppercase;
+ padding-top: 5px;
+ padding-bottom: 5px;
+
+
+}
+
+lord-icon{
+
+  position: relative;
+  top: 80%;
+  left: 0;
+  cursor: pointer;
+
+}
+
+lord-icon:hover{
+   
+    opacity: 0.6; 
+}
+
+@keyframes abouttext{
+
+0%{
+    opacity: 0%;
+  }
+
+ 100%{
+    opacity: 100%;
+  }
+
+}
+
+
+#harish{
+
+ font-family:'Sofia Pro', sans-serif; 
+ font-size: 90px;
+ font-weight: bold;
+ opacity: 100%;
+ animation: name 1s 1 forwards;
+
+
+}
+@keyframes name{
+
+0%{
+    opacity: 0%;
+  }
+
+ 100%{
+    opacity: 100%;
+  }
+
+}
+
+
+
+
+/*.............................................................................*/
+
+.wrapper{
+  
+  margin-top: 0 !important; 
+  margin-left: -0.5%;
+  margin-bottom: 0 !important;
+ 
+
+}
+
+
+
+.wrapper .static-text{
+  font-family:'Sofia Pro', sans-serif; 
+  font-weight: bold;
+  font-size: 70px;
+}
+.wrapper .dynamic-txts{
+  font-family:'Sofia Pro', sans-serif; 
+  padding-left: 0;
+  font-size: 90px;
+  height: 90px;
+  line-height: 90px;
+  overflow: hidden;
+}
+.dynamic-txts li{
+  list-style: none;
+  color: black;
+  font-size: 4.2vw;
+  font-weight: 600;
+  position: relative;
+  top: 0;
+  animation: slide 6s steps(4) infinite;
+}
+@keyframes slide {
+  100%{
+    top: -360px;
+  }
+}
+.dynamic-txts li span{
+  
+  margin: 5px 0;
+  line-height: 90px;
+}
+.dynamic-txts li span::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: white;
+  border-left: 2px solid white;
+  animation: typing 1.5s steps(14) infinite;
+}
+@keyframes typing {
+ 100%{
+
+  left: 100%;
+  margin: 0 -35px 0 35px;
+ 
+
+ }
+}
+
+
+#res:hover{
+
+   text-decoration: none;
+   border-bottom: 2.5px solid white;
+  
+
+}
+
+#res{
+
+   text-decoration: none;
+   margin-right: 5px;
+  
+
+}
+
+#maill:hover{
+
+   text-decoration: none;
+   border-bottom: 2px solid white;
+   
+
+}
+
+#maill{
+
+   text-decoration: none;
+  
+
+}
+
+
+............................................................................
+
+
+/* SKILLS SECTION */
+
+.mh-professional-skill{
+
+  padding-right: 60px;
+  color: black;
+ 
+
+}
+
+.mh-skills{
+
+  display: flex;
+  align-content: center;
+  margin-left: 7.1%;
+  margin-right: 5.3%;
+}
+
+.roww{
+
+  display: flex;
+}
+
+.mh-skills .mh-professional-skill h3{
+
+  font-size: 310%;
+  line-height: 40px;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 6.2%;
+  align-content: center;
+  margin-bottom: 6.5%;
+  font-family: Josefin Sans;
+  color: white;
+
+}
+
+.mh-skills-inner{
+
+  margin-bottom: 40px;
+  margin-top: 50px;
+  margin-right: 0px;
+  margin-left: 50px;
+
+}
+
+.mh-professional-skills{
+
+ margin-top: 2.2%;
+ margin-bottom: ;
+ margin-right: 10%;
+ margin-left: 10%;
+ width: 100%;
+
+}
+
+.techbox{
+
+  background:black;
+  margin-left: 1.4%;
+  width: 45%;
+  padding-left: 5%; 
+  padding-top: 1.5%;
+  height: 610px;
+}
+
+.profbox{
+ 
+  display: flex;
+  border-left: 80px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 0px;
+  height: 610px;
+  width: 50%;
+  background: black;
+ 
+}
+
+.mh-professional-skills{
+
+  
+  color: white;
+
+}
+
+.mh-professional-skills h3{
+
+  font-size: 310%;
+  line-height: 40px;
+  text-align: center;
+  font-weight: 640;
+  margin-top: 6.9%;
+  margin-bottom: 5.5%;
+  font-family: Josefin Sans;
+  color: white;
+  width: 105%;
+
+}
+
+.each-skills{
+
+ margin-top: 11%;
+
+
+}
+
+.mh-professional-progress{
+
+ padding-left: 1%;
+ padding-right: 1%;
+ width: 105%;
+ height: 75%;
+
+}
+
+.mh-professional-progress li{
+ 
+  display: inline-block;
+  margin: 0 auto;
+  float: none;
+  width: 48%;
+  
+  text-align: center;
+  margin-top: 30px;
+  margin-right: 5px;
+
+
+}
+
+.pr-skill-name{
+
+  font-family: 'Balthazar', sans-serif;
+  font-size: 150%;
+  font-weight: 500;
+  color: white;
+}
+
+.mh-progress{
+
+  margin-bottom: 10px;
+  font: 900 1.14285/1 Cinzerl, cursive;
+  color: white;
+
+
+}
+
+.mh-progress .progressbar-text{
+  
+  color: black; 
+  font-family: 'Sofia-Pro', sans-serif;
+
+
+}
+
+.progress.progress-line{
+  
+  height: 10px;
+  margin-right: 60px;
+
+
+}
+
+
+.progress.progress-line .progressbar-text{
+
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  width: 60px;
+  transform: translateY(-35%);
+  text-align: center;
+  font-family: 'Sofia-Pro', sans-serif;
+
+}
+
+.progressbar-text{
+
+  color: white !important;
+
+
+}
+
+.mh-progress.mh-progress-circle{
+  
+  display: inline-block;
+  width: 40%;
+  height: 40%;
+
+
+}
+
+.mh-progress path:nth-child(1){
+
+  stroke: #858585;
+
+}
+
+.mh-progress path:nth-child(2){
+
+  stroke: #0bceaf !important;
+
+}
+
+
+.candidatos{
+  
+  position: relative;
+  margin-bottom: 15px;
+  font-family:'Sofia-Pro', sans-serif;
+
+}
+
+.candidatos .parcial{
+  
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+
+
+}
+
+.candidatos .parcial .info{
+  
+  position: relative;
+  font-family:'Sofia-Pro', sans-serif;
+
+
+}
+
+.candidatos .parcial .info .name{
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 17px;
+  font-weight: 600;
+  opacity: 1;
+  font-family:Josefin Sans;
+  color: white;
+
+
+}
+
+.candidatos .parcial .info .percentage-num{
+
+   position: absolute;
+   top: 0;
+   right: 0;
+   font-size: 14px;
+   font-weight: normal;
+   color: white;
+
+
+}
+
+
+.candidatos .parcial .progressBar{
+
+  position: relative;
+  width: 100%;
+  height: 7px;
+  margin: 39px 0 2px;
+  border-radius: 10px;
+  background: grey;
+
+}
+
+.percentagem{
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 7px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: #0bceaf;
+  font-family:'Sofia-Pro', sans-serif;
+  -webkit-animation-name: animationProgress;
+  /*-webkit-animation-iteration-count: infinite; */
+  -webkit-transition: 22s all;
+  -webkit-animation-duration: 22s; 
+}
+
+
+
+@keyframes animationProgress{
+  
+  from{
+    width: 0;
+  }
+
+
+}
+
+.skillscon{
+
+ 
+ height: 830px; 
+ background-color: #121417;
+ width: 100%;
+
+}
+
+
+#skillssname{
+  
+ font-family:'Sofia Pro', sans-serif; 
+ font-size: 120px;
+ color: white;
+ opacity: 0.8;
+ font-weight: bold;
+ margin-left: 8.3%;
+ line-height: 1.35;
+ 
+ align-content: left;
+
+ 
+
+}
+
+
+/* SKILLS SECTION END */
+
+
+#desig{
+
+ font-family:'Sofia Pro', sans-serif; 
+ font-size: 50px;
+ font-weight: bold;
+ opacity: 100%;
+ animation: desigg 2s 1 forwards;
+
+
+}
+@keyframes desigg{
+
+0%{
+    opacity: 0%;
+  }
+
+ 100%{
+    opacity: 100%;
+  }
+
+}
+
+
+
+
+.abc{
+ 
+ margin-left: 0;
+ padding: 0;
+ background-color: black;
+ height: 920px;
+ width: 100%;
+
+}
+.abc span{
+ 
+ padding-top: 0px;
+ color: white;
+ font-family:'Sofia Pro', sans-serif; 
+ font-size: 120px;
+ margin-left: 7.8%;
+ font-weight: bold;
+ line-height: 1.35;
+
+
+}
+
+
+.abc .container{
+  
+  padding-left: 0;
+  margin-left: 60px;
+
+
+}
+
+
+
+/* END HEADER */
+
+/* FOOTER */
+
+.panel-footer {
+ /* margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;*/
+  display: grid;
+  margin-left: 0;
+  margin-right: 0;
+  padding-right: 0;
+  padding-left: 0;
+  padding-top: 35px;
+  opacity: 95%;
+  background-color: black;
+  color: black;
+  border-top: 0;
+}
+
+.footer-out{
+  
+  margin-left: 10%;
+  margin-right: 10%;
+
+
+}
+
+
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#hours, #address {
+  line-height: 2;
+}
+#hours > span, #address > span {
+  font-size: 1.3em;
+}
+#address p {
+  color: yellow;
+  font-size: .8em;
+  line-height: 1.8;
+}
+#testimonials {
+  font-style: italic;
+}
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
+}
+
+#links {
+
+  font-size: 35px;
+  align-items: center;
+}
+
+
+
+#inputmail{
+  
+font-family: 'Sofia Pro', sans-serif; 
+font-weight: normal;
+font-size: 19px;
+margin-top: 20px;
+background: black;
+border: none;
+border-bottom: 2px solid white;
+}
+
+
+#footer-text
+{
+  color: white;
+  font-size: 17px;
+  font-family: 'Sofia Pro', sans-serif; 
+  
+}
+
+#links a {
+  color: white;
+  opacity: 100%;
+  animation: smedia 3s 1 forwards;
+}
+
+
+@keyframes smedia{
+
+0%{
+    opacity: 0%;
+  }
+
+ 100%{
+    opacity: 100%;
+  }
+
+}
+
+#topnav{
+
+  font-size: 40px;
+  color: black;
+  opacity: 100%;
+
+  margin-left: 104%;
+  animation: navtop 3s 1 forwards;
+}
+
+@keyframes navtop{
+
+0%{
+    opacity: 0%;
+  }
+
+ 100%{
+    opacity: 100%;
+  }
+
+}
+
+/* END FOOTER */
+
+
+#home-tiles{
+
+
+  display: flex;
+  margin-bottom: 70px;
+  margin-left: 11%;
+  margin-top: 1%;
+  margin-right: 11%;
+
+}
+
+
+/* SLIDER
+
+.slider{
+
+  overflow: hidden;
+  width: 70%;
+  position: relative;
+  margin-top: 80px;
+  margin-left: 310px;
+
+}
+
+.images{
+ display: flex;
+ width: 100%;
+}
+
+.images img{
+  
+ height: 500px;
+ width: 100%;
+ transition: all 0.15s ease;
+ border: 10px solid grey;
+ border-radius: 10px;
+}
+
+.images input{
+  display: none;
+ 
+}
+
+.dots{
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+.dots label{
+
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 3px solid white;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  margin: 5px;
+  margin-top: 15px;
+
+}
+.dots label:hover{
+  background: white;
+}
+
+#img1:checked ~ .m1{
+  margin-left: 0;
+
+}
+#img2:checked ~ .m2{
+  margin-left: -100%;
+  
+}
+#img3:checked ~ .m3{
+  margin-left: -200%;
+  
+}
+
+
+*/
+
+/* SLIDER*/
+.bottom-right {
+  position: absolute;
+  bottom: 115px;
+  right: 46px;
+  color: white;
+  font-size: 9vw;
+}
+
+.slide-content{
+
+  height: 100%;
+
+
+}
+
+.slider{
+  margin: 0 auto;
+
+  height: 100%;
+  width: 100%;
+  text-align: center;
+
+}
+#slider {
+
+ width: 100%;
+
+}
+
+#slider input[type=radio]{
+
+  display: none;
+}
+
+#slider label{
+ 
+ cursor: pointer;
+ text-decoration: none;
+
+}
+
+.t11{
+
+  display: none;
+}
+.t111{
+
+  display: none;
+}
+
+
+#slides{
+ 
+ 
+ margin-top: 2%;
+ margin-left:  7.8%;
+ margin-right: 7.8%;
+ height: 100%;
+ width: 84%;
+ border-radius: 10px;
+ border: 9px solid black;
+ background: black;
+ position: relative;
+ z-index: 1; 
+
+}
+#overflow{
+ width: 100%;
+ overflow: hidden;
+
+
+}
+
+#slide1:checked ~ #slides .inner{
+
+ margin-left: 0;
+
+ 
+ 
+}
+
+#slide2:checked ~ #slides .inner{
+
+ margin-left: -100%;
+ 
+
+}
+
+
+#slide3:checked ~ #slides .inner{
+
+ margin-left: -200%;
+
+}
+
+#slides .inner {
+  transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+  width: 400%;
+  line-height: 0;
+  height: 100%;
+}
+
+#slides .slide{
+ width: 25%;
+ float: left;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: black;
+ font-size: 120px;
+ font-family:'Sofia Pro', sans-serif;
+ height: 630px;
+ font-weight: bold;
+
+}
+
+#slides .slide_1 {
+
+  background: white;
+}
+
+#slides .slide_2 {
+
+  background: black;
+}
+
+#slides .slide_3 {
+
+  background: black;
+}
+
+
+#controls{
+
+  margin: -180px 0 0 0;
+  width: 100%;
+  height: 50px;
+  z-index: 3;
+  position: relative;
+
+}
+
+#controls label{
+
+  transition: opacity 0.2s ease-out;
+  display: none;
+  width: 50px;
+  height: 50px;
+  opacity: .4;
+
+}
+
+#controls label:hover{
+  opacity: 1;
+}
+
+/*#slide1:checked ~ #controls label:nth-child(2),
+#slide1:checked ~ #controls label:nth-child(3),
+#slide1:checked ~ #controls label:nth-child(1){
+
+ background: url('../images/arrow-right.png') no-repeat;
+ float: right;
+ margin:0 -50px 0 0;
+ display: block;
+
+
+} 
+
+#slide1:checked ~ #controls label:nth-last-child(1),
+#slide1:checked ~ #controls label:nth-last-child(3),
+#slide1:checked ~ #controls label:nth-last-child(2){
+
+ background: url('../images/arrow-left.png') no-repeat;
+ float: left;
+ margin:0 0 0 -50px;
+ display: block;
+
+} */
+
+#bullets{
+
+  margin: 150px 0 0;
+  margin-left: 250px;
+
+  text-align: center;
+}
+
+#bullets label{
+
+ display: inline-block;
+ width: 10px;
+ height: 10px;
+ background: #ccc;
+ margin: 0 10px;
+ border-radius: 100%;
+
+}
+
+#slide1:checked ~ #bullets label:nth-child(1),
+#slide2:checked ~ #bullets label:nth-child(2),
+#slide3:checked ~ #bullets label:nth-child(3){
+
+
+ background: #444;
+
+}
+
+@media screen and (max-width: 900px){
+
+ #slide1:checked ~ #controls label:nth-child(2),
+ #slide1:checked ~ #controls label:nth-child(3),
+ #slide1:checked ~ #controls label:nth-child(1) 
+ #slide1:checked ~ #controls label:nth-last-child(2),
+ #slide1:checked ~ #controls label:nth-last-child(3),
+ #slide1:checked ~ #controls label:nth-last-child(1){
+
+ margin: 0;
+
+ } 
+
+}
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -37px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  font-size: 50px;
+  margin-top: -57px;
+
+
+}
+
+.prev{
+
+  margin-top: -59px;
+  font-size: 50px;
+
+
+}
+
+/* On hover,  black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  text-decoration: none;
+  opacity: 0.9;
+  color: white;
+}
+
+
+.slide_1 p{
+
+  line-height: 0 !important;
+  align-content: center;
+  align-items: center;
+  margin-top: 302px;
+  margin-left: 250px;
+
+
+}
+
+.slide_2 p{
+
+  line-height: 0 !important;
+  align-content: center;
+  align-items: center;
+  margin-top: 302px;
+  margin-left: 415px;
+
+}
+
+.slide_3 p{
+
+  line-height: 0 !important;
+  align-content: center;
+  align-items: center;
+  margin-top: 302px;
+  margin-left: 387px;
+
+}
+
+
+#ss1:{
+
+  color: black;
+  font-size: 300px;
+
+
+}
+
+
+
+
+
+
+/* The dots/bullets/indicators */
+.carin {
+  cursor: pointer;
+  height: 4px;
+  width: 40px;
+  background-color: white;
+  border: 1.5px solid white;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+
+}
+
+
+
+#carline{
+ 
+  margin-top: -40px;
+  margin-left: 30px; 
+
+}
+.active, .carin:hover {
+  background-color: black;
+}
+
+/*SLIDER CLOSE*/
+
+
+
+
+/* MUSIC TAB*/
+
+
+#music{
+
+  display:flex;
+  height: 820px;
+  margin-right: 0px;
+  margin-left: 0;
+  background: black;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+#music-title{
+ 
+  margin-left: 5.7%;
+  margin-bottom: 2%;
+  margin-right: 0;
+  width: 94%;
+}
+
+
+.out{
+   
+  width: 100%;
+
+}
+
+#actual-grids{
+
+  display: flex;
+  margin-right: 5.1%;
+  margin-left: 5.1%;
+
+
+}
+
+
+#music-des{
+
+  display: flex;
+  width: 60%;
+  height: 600px;
+  padding-left: 1%; 
+  padding-right: 1%;
+}
+
+#guitar-pic{
+
+ width: 55%;  
+ padding-left: 0%;
+ padding-right: 0%; 
+ background: black;
+ border: 20px solid #262626;
+ height: 525px;
+ overflow: hidden; 
+ 
+
+}
+
+
+#music-text{
+
+  font-family:'Sofia Pro', sans-serif;
+  font-size: 120px;
+  font-weight: bold;
+  color: white;
+
+}
+
+#plattforms{
+
+  font-family:'Sofia Pro', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+  background: white;
+  padding-left: 3%;
+  padding-bottom: 1%;
+  height: 525px;
+  width: 90%;
+
+}
+
+
+#imakemusic{
+
+  font-family:'Sofia Pro', sans-serif;
+  font-size: 175%;
+  font-weight: bold;
+  color: black;
+
+}
+
+#checkout{
+
+  font-family: Josefin Sans;
+  font-size: 80%;
+  font-weight: bold;
+  color: black;
+
+}
+
+#spotify{
+
+  font-family: Sofia Pro;
+  font-size: 75%;
+  font-weight: 500;
+  color: black;
+
+
+}
+#streamingservices{
+
+  padding-left: 0;
+  padding-top: 10px;
+  list-style: none;
+  width: 230px;
+}
+
+#qwe span:hover{
+
+ /*color: #696969; */ 
+ text-decoration: none;
+ font-size: 77%;
+ opacity: 1;
+  
+}
+
+#qwe:hover{
+
+ text-decoration: none;
+ 
+ 
+}
+#qwe span{
+
+
+ text-decoration: none;
+  
+}
+
+
+#pic{
+
+  /* font-family:'Sofia Pro', sans-serif;
+  color: white;
+  font-size: 70px;
+  font-weight: bold; */
+  background: #bab7af;
+  border: 20px solid #787878;
+  height: 525px;
+  width: 100%;
+}
+
+
+
+/* MUSIC TAB END*/
+
+
+/*ABOUT ME TAB*/
+
+#aboutme{
+
+  display:flex;
+  height: 930px;
+  width: 100%;
+  margin-right: 0px;
+  margin-left: 0;
+  background: white;
+  border-bottom: 22px solid black;
+  overflow-x: hidden;
+
+}
+
+.outer{
+
+  width: 100%;
+
+
+}
+
+
+#aboutme-title{
+ 
+  margin-left: 5.8%;
+  margin-bottom: 1%;
+
+
+}
+
+#actuall-grids {
+
+    display: flex;
+    margin-left: 5.6%;
+    margin-right: 5.6%;
+   
+
+}
+
+#about-text{
+
+  font-family:'Sofia Pro', sans-serif;
+  font-size: 120px;
+  font-weight: bold;
+  color: black;
+
+}
+
+#me-pic{
+
+  padding: 0;
+  width: 95%;
+  border: 12px solid black;
+  height: 624px;
+  overflow: hidden;
+
+}
+
+#about-des{
+
+  padding-left: 0;
+  margin-top: 0.8%;
+  margin-bottom: 0.8%;
+  margin-left: 1.7%;
+  padding-right: 0;
+  height: 604px;
+  width: 100%;
+
+}
+
+#whoiam{
+
+  font-family:'Sofia Pro', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+  background: black;
+  padding-left: 3.3%;
+  padding-bottom: 10px;
+  height: 604px;
+  width: 100%;
+ 
+}
+
+
+#mpic{
+
+  font-family:'Sofia Pro', sans-serif;
+  color: white;
+  font-size: 70px;
+  font-weight: bold;
+  background: #bab7af;
+ 
+  height: 655px;
+
+}
+
+#mypix{
+
+  height: 631px;
+
+
+}
+
+
+#myname{
+
+  font-family:'Sofia Pro', sans-serif;
+  font-size: 235%;
+  font-weight: bold;
+  color: white;
+
+}
+
+#cont{
+
+  font-family: Josefin Sans;
+  padding-left: 0.2%;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+
+}
+
+#desc{
+
+ margin-top: 10px;
+ font-family:'Sofia Pro', sans-serif;
+ font-size: 47.5%;
+ color: white;
+ padding-left: 5px;
+ font-weight: 400;
+ padding-right: 10px;
+  
+  
+ 
+}
+#desc-b{
+
+ margin-top: 10px;
+ font-family:'Sofia Pro', sans-serif;
+ font-size: 100%;
+ color: white;
+ padding-left: 7px;
+ font-weight: 850;
+
+ padding-right: 6px;
+  
+  
+ 
+}
+
+#location{
+
+ margin-top: 10px;
+ font-family:'Sofia Pro', sans-serif;
+ font-size: 20px;
+ color: white;
+ padding-left: 5px;
+ font-weight: 490;
+ padding-right: 10px;
+  
+  
+ 
+}
+
+#globe{
+
+ font-size: 30px;
+
+
+}
+
+
+.abc .container{
+
+ margin-left: 0 ; 
+ margin-right: 0;
+ padding-right: 0;
+ width: 100%;
+ height: 100%;
+ 
+}
+
+
+
+
+
+#letmeknowyou{
+  margin-top: 0.7%;
+  margin-left: 11.3%;
+  font-family:'Sofia Pro', sans-serif;
+  color: black;
+  font-size: 110px;
+  font-weight: bold;
+  
+}
+
+
+#home-tiles .container {
+
+  background: black;
+  border: 9px solid #212121;
+  margin-left: 2.7%;
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+
+#home-tiles .containerr {
+
+  margin-left: 1%;
+  padding-left: 15px;
+  padding-right: 15px;
+  background: black;
+  margin-right: 2.5%;
+  height: 500px;
+
+}
+
+
+#text-tile {
+
+  font-family:'Sofia Pro', sans-serif;
+  color: white;
+  font-size: 67px;
+  font-weight: bold;
+  margin-top: 4%;
+  margin-left: 2%;
+
+}
+
+#smiley{
+
+  color: white;
+  font-family: arial;
+  font-size: 70px;
+  font-weight: 550;
+  margin-top: 20px;
+  margin-left: 10px;
+
+
+}
+
+#menu-tile {
+  height: 457px;
+  width: 100%;
+  
+  overflow: hidden;
+}
+
+#lets-get{
+ 
+ padding-top: 10px;
+ color: white;
+
+}
+
+#buttonn{
+
+  margin-top: -2px;                                      
+  opacity: 1;
+
+}
+#buttonn:hover{
+  
+  background: #ababab;
+}
+
+#msgbutton{
+
+ resize: none;
+ width: 336px;
+
+
+}
+
+
+/*#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}*/
+
+#menu-tile {
+  
+  background-position: center;
+  border-radius: 5px;
+  animation: res 2s 1 forwards;
+  opacity: 100%;
+}
+#specials-tile {
+  background: url('../images/specials-tile.jpg') no-repeat;
+  background-position: center;
+}
+
+#menu-tile span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size: 1.6em;
+  font-weight: bold;
+  font-family: 'Sofia Pro', sans-serif;
+  color: white;
+  opacity: 1;
+}
+
+#resume{
+  font-family: Josefin Sans;
+  font-size: 180%;
+  font-weight: bold;
+  margin-top: 8%;
+  opacity: 100%;
+  color: white;
+}
+#resume a{
+  font-weight: normal;
+
+}
+
+#labell{
+
+  font-weight: 450;
+  
+
+
+}
+
+@keyframes res {
+0%{
+    opacity: 0%;
+  }
+
+ 100%{
+    opacity: 100%;
+  }
+
+}
+
+#contact-mail{
+
+
+  font-family: 'Sofia Pro', sans-serif;
+  font-size: 20px;
+  color: white;
+  opacity: 100%;
+  animation: conmail 3s forwards;
+}
+
+@keyframes conmail{
+
+0%{
+    opacity: 0%;
+  }
+
+ 100%{
+    opacity: 100%;
+  }
+
+}
+
+
+#newss{
+
+  font-family: 'Sofia Pro', sans-serif;
+  font-size: 25px;
+  font-weight: 450;
+  color: white;
+  opacity: 100%;
+  animation: newssss 3s forwards;
+  margin-bottom: 35px;
+
+}
+
+@keyframes newssss{
+
+0%{
+    opacity: 0%;
+  }
+
+ 100%{
+    opacity: 100%;
+  }
+
+}
+
+
+
+#contact {
+
+ padding-top: 44px;
+ padding-left: 3vw;
+ font-family: 'Sofia Pro', sans-serif;
+ font-size: 20px; 
+ color: white;
+
+}
+
+
+@keyframes conc{
+
+0%{
+    opacity: 0%;
+  }
+
+ 100%{
+    opacity: 100%;
+  }
+
+}
+
+
+@keyframes cont {
+0%{
+    opacity: 0%;
+  }
+
+ 100%{
+    opacity: 100%;
+  }
+
+}
+
+.projects {
+
+ font-family: 'Sofia Pro', sans-serif;
+ font-size: 90px;
+ font-weight: bold;
+ color: white;
+ height: 675px;
+ background: black;
+
+}
+
+.projects span {
+
+ font-family: 'Sofia Pro', sans-serif;
+ font-size: 90px;
+ font-weight: bold;
+ padding-left: 30px;
+ 
+
+
+
+}
+
+
+
+
+/* MENU CATEGORIES PAGE */
+.category-tile { 
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 15px;
+}
+.category-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+.category-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-categories-title + div {
+  margin-bottom: 50px;
+}
+/* END MENU CATEGORIES PAGE */
+
+/* SINGLE CATEGORY PAGE */
+.menu-item-tile {
+  margin-bottom: 25px;
+}
+.menu-item-tile hr {
+  width: 80%;
+}
+.menu-item-tile .menu-item-price {
+  font-size: 1.1em;
+  text-align: right;
+  margin-top: -15px;
+  margin-right: -15px;
+}
+.menu-item-tile .menu-item-price span {
+  font-size: .6em;
+}
+.menu-item-photo {
+  position: relative;
+  border: 2px solid #3F0C1F; 
+  overflow: hidden;
+  padding: 0;
+  margin-right: -15px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  max-width: 250px;
+}
+.menu-item-photo div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 80px;
+  background-color: #557c3e;
+  text-align: center;
+}
+.menu-item-description {
+  padding-right: 30px;
+}
+h3.menu-item-title {
+  margin: 0 0 10px;
+}
+.menu-item-details {
+  font-size: .9em;
+  font-style: italic;
+}
+/* END SINGLE CATEGORY PAGE */
+
+
+@media (max-width: 3096px) and (min-width: 1700px) {
+
+.dynamic-txts li{
+  list-style: none;
+  color: black;
+  font-size: 2.6vw;
+  font-weight: 600;
+  position: relative;
+  top: 0;
+  animation: slide 6s steps(4) infinite;
+}
+
+
+
+}
+
+@media (max-width: 1341px) and (min-width:1199px){
+
+.jumbotron {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding: 0;
+    margin-top: -17px;
+    margin-right: 0;
+    overflow: hidden;
+    width: 69%;
+    animation: jumbo 3s 1 forwards;
+    background-color: white;
+}
+
+
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  
+
+
+
+.dropdown{
+
+ margin-left: 460px;
+ padding-top: 15px;
+ background: white;
+ 
+}
+#navbar-button{
+  background: white;
+  font-size: 16px;
+  font-weight: bold;
+  height: 80px;
+  color: black;
+  opacity: 100%;
+  padding: 0;
+  border:0;
+ 
+}
+
+#navbar-button:hover{
+  opacity: 70%;
+  
+  background: white;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+ 
+}
+
+
+
+
+#text-tile {
+
+  font-family:'Sofia Pro', sans-serif;
+  color: white;
+  font-size: 66px;
+  font-weight: bold;
+  margin-top: 4%;
+  margin-left: 2%;
+
+}
+.count{
+
+ position: absolute;
+ top: 94%;
+ left: 4.5%;
+ transform: translate(-50%,-50%);
+ font-size: 100px;
+ color: #fff;
+ font-weight: 600;
+ mix-blend-mode: difference;
+ width: 400px;
+ text-align: right;
+ font-family: Josefin Sans; 
+
+}
+
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+   /* background: url('../images/port.jpg') no-repeat; */
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+  /* End Header */
+
+  .jumbotron {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding: 0;
+    margin-top: -17px;
+    margin-right: 0;
+    overflow: hidden;
+    width: 48%;
+    animation: jumbo 3s 1 forwards;
+    background-color: white;
+}
+
+
+
+
+
+.dropdown{
+
+ margin-left: 460px;
+ padding-top: 15px;
+ background: white;
+ 
+}
+#navbar-button{
+  background: white;
+  font-size: 16px;
+  font-weight: bold;
+  height: 80px;
+  color: black;
+  opacity: 100%;
+  padding: 0;
+  border:0;
+ 
+}
+
+#navbar-button:hover{
+  opacity: 70%;
+  
+  background: white;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+ 
+}
+  
+ .stickk {
+
+  background-color: black; 
+  
+  position: fixed;
+  top: 0;
+  border: 0;
+  border-radius: 0;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  height: 73px;
+
+} 
+
+.stickk #navline{
+  
+  visibility: hidden;
+}
+
+
+.stickk .navbar-brand h1 { /* Name */
+  animation: text 2s 1 forwards;
+  font-family: 'Sofia Pro', sans-serif;                               
+  color: white;
+  font-size: 57px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .38;
+  
+  
+}
+
+.stickk #bb {
+  color: white;
+  text-align: center;
+  opacity: 100%;
+  animation: menu 2s 1 forwards;
+}
+
+.stickk .icon-burger .line {
+  width: 40px;
+  height: 4px;
+  background-color: white;
+  margin: 5px;
+  border-radius: 4px;
+  transition: all .3s ease-in-out;
+}
+
+
+
+.stickk .linkk {
+    float: none;
+    position: fixed;
+    z-index: 9;
+    left: 100;
+    right: 0;
+    top: 70px;
+    bottom: 100%;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgba(0,0,0,.86);
+    overflow: hidden;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    border-left: 10px solid #000000;
+    border-right: 10px solid #000000;
+    transition: all .5s ease-in-out;
+  }
+
+ 
+
+ nav .linkk {
+    float: none;
+    position: fixed;
+    z-index: 9;
+    left: 100;
+    right: 0;
+    top: 90px;
+    bottom: 100%;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgba(0,0,0,.86);
+    overflow: hidden;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    border-left: 10px solid #000000;
+    border-right: 10px solid #000000;
+    transition: all .5s ease-in-out;
+}
+
+
+
+#imakemusic{
+
+  font-family:'Sofia Pro', sans-serif;
+  font-size: 150%;
+  font-weight: bold;
+  color: black;
+
+}
+
+#checkout{
+
+  font-family: Josefin Sans;
+  font-size: 75%;
+  font-weight: bold;
+  color: black;
+
+}
+
+#spotify{
+
+  font-family: Sofia Pro;
+  font-size: 75%;
+  font-weight: 500;
+  color: black;
+
+
+}
+
+.progressbar-text{
+
+ font-size: 14px;
+
+
+}
+
+#desc{
+
+ margin-top: 10px;
+ font-family:'Sofia Pro', sans-serif;
+ font-size: 40%;
+ color: white;
+ padding-left: 5px;
+ font-weight: 400;
+ padding-right: 10px;
+   
+}
+#myname{
+
+  font-family:'Sofia Pro', sans-serif;
+  font-size: 215%;
+  font-weight: bold;
+  color: white;
+
+}
+
+#cont{
+
+  font-family: Josefin Sans;
+  padding-left: 0.2%;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+
+}
+
+
+#desc-b{
+
+ margin-top: 10px;
+ font-family:'Sofia Pro', sans-serif;
+ font-size: 100%;
+ color: white;
+ padding-left: 7px;
+ font-weight: 850;
+
+ padding-right: 6px;
+  
+  
+ 
+}
+
+#location{
+
+ margin-top: 10px;
+ font-family:'Sofia Pro', sans-serif;
+ font-size: 20px;
+ color: white;
+ padding-left: 5px;
+ font-weight: 490;
+ padding-right: 10px;
+  
+  
+ 
+}
+
+#globe{
+
+ font-size: 30px;
+
+
+}
+
+#text-tile {
+
+  font-family:'Sofia Pro', sans-serif;
+  color: white;
+  font-size: 55px;
+  font-weight: bold;
+  margin-top: 4%;
+  margin-left: 2%;
+
+}
+
+#smiley{
+
+  color: white;
+  font-family: arial;
+  font-size: 57px;
+  font-weight: 550;
+  margin-top: 20px;
+  margin-left: 10px;
+
+
+}
+
+#contact {
+
+ padding-top: 44px;
+ padding-left: 2vw;
+ font-family: 'Sofia Pro', sans-serif;
+ font-size: 20px; 
+ color: white;
+
+}
+
+#links {
+
+  font-size: 28px;
+  align-items: center;
+}
+
+.dynamic-txts li{
+  list-style: none;
+  color: black;
+  font-size: 4.8vw;
+  font-weight: 600;
+  position: relative;
+  top: 0;
+  animation: slide 6s steps(4) infinite;
+}
+
+.count{
+
+ position: absolute;
+ top: 94%;
+ left: 4.5%;
+ transform: translate(-50%,-50%);
+ font-size: 100px;
+ color: #fff;
+ font-weight: 600;
+ mix-blend-mode: difference;
+ width: 400px;
+ text-align: right;
+ font-family: Josefin Sans; 
+
+}
+
+
+#stream{
+
+ font-size: 35px !important;
+
+
+}
+
+
+#silly{
+
+ padding-top: 7%;
+ padding-left: 34px;
+ font-family:'Sofia Pro', sans-serif; 
+ font-weight: 400;
+ font-size: 18px !important;
+ color: white;
+
+}
+
+#ighead{
+
+ font-family:'Sofia Pro', sans-serif; 
+ color: black;
+ font-size: 87px !important;
+ font-weight: bold;
+
+}
+
+
+}
+
+
+
+
+/********** Small devices only **********/
+@media (min-width: 767px) and (max-width: 991px) {
+
+
+.jumbotron{
+  
+   padding-top: 0;
+   padding-bottom: 0;
+   margin-bottom: 0;
+   padding: 0;
+   margin-top: -17px;
+   margin-right: 0;
+   overflow: hidden;
+   width: 55%; 
+   animation: jumbo 3s 1 forwards;
+   background-color: white;
+  
+
+}
+
+
+  #header-nav {
+ 
+  border-radius: 0;
+  border: 0;
+  margin-bottom: 60px;
+  /*overflow: hidden;
+  position: fixed;*/
+  width: 100%;
+  height: 73px;
+
+
+}
+
+
+
+nav .icon-burger {
+  display: none;
+  
+  margin-top: 0px;
+  right: 1.6%;
+  top: 41%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+
+
+  nav .linkk {
+    float: none;
+    position: fixed;
+    z-index: 9;
+    left: 100;
+    right: 0;
+    top: 90px;
+    bottom: 100%;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgba(0,0,0,.86);
+    overflow: hidden;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 10px;
+    box-sizing: border-box;
+    border-left: 10px solid #000000;
+    border-right: 10px solid #000000;
+    transition: all .5s ease-in-out;
+  }
+
+
+
+
+
+
+  nav .linkk a {
+    font-size: 20px;
+
+  }
+  nav :checked ~ .linkk {
+    bottom: 0;
+  }
+  nav .icon-burger {
+    display: block;
+  }
+  nav :checked ~ .icon-burger .line:nth-child(1) {
+    transform: translateY(10px) rotate(225deg);
+  }
+  nav :checked ~ .icon-burger .line:nth-child(3) {
+    transform: translateY(-10px) rotate(-225deg);
+  }
+  nav :checked ~ .icon-burger .line:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .stickk {
+
+  background-color: black; 
+  
+  position: fixed;
+  top: 0;
+  border: 0;
+  border-radius: 0;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  height: 73px;
+
+} 
+
+.stickk #navline{
+  
+  visibility: hidden;
+}
+
+
+.stickk .navbar-brand h1 { /* Name */
+  animation: text 2s 1 forwards;
+  font-family: 'Sofia Pro', sans-serif;                               
+  color: white;
+  font-size: 57px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .38;
+  
+  
+}
+
+.stickk #bb {
+  color: white;
+  text-align: center;
+  opacity: 100%;
+  animation: menu 2s 1 forwards;
+}
+
+.stickk .icon-burger {
+ 
+  margin-top: 0px;
+  right: 1.6%;
+  top: 38%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.stickk .icon-burger .line {
+  width: 40px;
+  height: 4px;
+  background-color: white;
+  margin: 5px;
+  border-radius: 4px;
+  transition: all .3s ease-in-out;
+}
+
+
+.stickk .linkk {
+    float: none;
+    position: fixed;
+    z-index: 9;
+    left: 100;
+    right: 0;
+    top: 70px;
+    bottom: 100%;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgba(0,0,0,.86);
+    overflow: hidden;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 10px !important;
+    box-sizing: border-box;
+    border-left: 7px solid #000000;
+    border-right: 10px solid #000000;
+    transition: all .5s ease-in-out;
+  }
+
+ /////////////////////////////////////
+
+
+  .navbar-brand hr {
+    width: 400px;
+   
+    height: 4px;
+    left: 100%;
+    animation: text 3s 1 forwards;
+    /*animation: text 2s 1 forwards;*/
+  }
+
+  @keyframes text {
+  
+  0%{
+    left: 0%;
+    width: 0px;
+  }
+
+  100%{
+    left: 100%;
+    width: 290px;
+  }
+
+}
+
+
+#slides{
+ 
+ 
+ margin-top: 2%;
+ margin-left:  6.3%;
+ margin-right: 6.3%;
+ height: 100%;
+ width: 87.8%;
+ border-radius: 10px;
+ border: 9px solid black;
+ background: black;
+ position: relative;
+ z-index: 1; 
+
+}
+.mh-skills{
+
+  display: flex;
+  align-content: center;
+  margin-left: 7.1%;
+  margin-right: 5.3%;
+}
+
+.mh-professional-progress{
+
+ padding-left: 1%;
+ padding-right: 1%;
+ width: 110%;
+ height: 75%;
+
+}
+
+.mh-professional-skills h3{
+
+  font-size: 310%;
+  line-height: 40px;
+  text-align: center;
+  font-weight: 640;
+  margin-top: 6.9%;
+  margin-bottom: 5.5%;
+  font-family: Josefin Sans;
+  color: white;
+  width: 100%;
+
+}
+
+.mh-professional-progress li{
+ 
+  display: inline-block;
+  margin: 0 auto;
+  float: none;
+  width: 42%;
+  
+  text-align: center;
+  margin-top: 30px;
+  margin-right: 5px;
+
+
+}
+
+
+.mh-professional-skills{
+
+ margin-top: 2.2%;
+ margin-bottom: ;
+ margin-right: 5%;
+ margin-left: 5%;
+ width: 100%;
+
+}
+.mh-progress.mh-progress-circle{
+  
+  display: inline-block;
+  width: 45%;
+  height: 40%;
+
+}
+
+.progressbar-text{
+
+ font-size: 12px;
+
+
+}
+
+.pr-skill-name{
+
+  font-family: 'Balthazar', sans-serif;
+  font-size: 120%;
+  font-weight: 500;
+  color: white;
+}
+
+.profbox{
+ 
+  display: flex;
+  border-left: 80px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 0px;
+  height: 610px;
+  width: 55%;
+  background: black;
+ 
+}
+
+
+#imakemusic{
+
+  font-family:'Sofia Pro', sans-serif;
+  font-size: 115%;
+  font-weight: bold;
+  color: black;
+
+}
+
+#checkout{
+
+  font-family: Josefin Sans;
+  font-size: 60%;
+  font-weight: bold;
+  color: black;
+
+}
+
+#spotify{
+
+  font-family: Sofia Pro;
+  font-size: 50%;
+  font-weight: 500;
+  color: black;
+
+
+}
+
+#qwe span:hover{
+
+ opacity: 0.8; 
+ text-decoration: none;
+ font-size: 54%;
+ 
+  
+}
+
+
+
+nav .icon-burger{
+
+  right: 4%;
+
+
+}
+
+#desc{
+
+ margin-top: 10px;
+ font-family:'Sofia Pro', sans-serif;
+ font-size: 37%;
+ color: white;
+ padding-left: 5px;
+ font-weight: 400;
+ padding-right: 10px;
+   
+}
+#myname{
+
+  font-family:'Sofia Pro', sans-serif;
+  font-size: 195%;
+  font-weight: bold;
+  color: white;
+
+}
+
+#cont{
+
+  font-family: Josefin Sans;
+  padding-left: 0.2%;
+  font-size: 37px;
+  font-weight: bold;
+  color: white;
+
+}
+
+
+#desc-b{
+
+ margin-top: 10px;
+ font-family:'Sofia Pro', sans-serif;
+ font-size: 100%;
+ color: white;
+ padding-left: 7px;
+ font-weight: 850;
+
+ padding-right: 6px;
+  
+  
+ 
+}
+
+#location{
+
+ margin-top: 10px;
+ font-family:'Sofia Pro', sans-serif;
+ font-size: 20px;
+ color: white;
+ padding-left: 5px;
+ font-weight: 490;
+ padding-right: 10px;
+  
+  
+ 
+}
+
+#globe{
+
+ font-size: 30px;
+
+
+}
+
+
+
+#letmeknowyou{
+  margin-top: 0.7%;
+  margin-left: 11.3%;
+  font-family:'Sofia Pro', sans-serif;
+  color: black;
+  font-size: 80px;
+  font-weight: bold;
+  
+}
+
+
+#text-tile {
+
+  font-family:'Sofia Pro', sans-serif;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 4%;
+  margin-left: 2%;
+
+}
+
+#smiley{
+
+  color: white;
+  font-family: arial;
+  font-size: 57px;
+  font-weight: 550;
+  margin-top: 20px;
+  margin-left: 10px;
+
+
+}
+
+#contact {
+
+ padding-top: 44px;
+ padding-left: 2vw;
+ font-family: 'Sofia Pro', sans-serif;
+ font-size: 20px; 
+ color: white;
+
+}
+
+
+#contact-mail{
+
+
+  font-family: 'Sofia Pro', sans-serif;
+  font-size: 20px;
+  color: white;
+  opacity: 100%;
+  animation: conmail 3s forwards;
+}
+
+#links {
+
+  font-size: 30px;
+  align-items: center;
+}
+
+#newss{
+
+  font-family: 'Sofia Pro', sans-serif;
+  font-size: 22px;
+  font-weight: 450;
+  color: white;
+  opacity: 100%;
+  animation: newssss 3s forwards;
+
+}
+#maill{
+
+  color: white;
+  font-size: 19px;
+}
+
+/*#topnav{
+
+  font-size: 40px;
+  color: black;
+  opacity: 100%;
+  margin-top: -70px;
+  margin-left: 440px;
+  animation: navtop 3s 1 forwards;
+} */
+
+
+
+
+#harish{
+
+ font-family:'Sofia Pro', sans-serif; 
+ font-size: 60px;
+ font-weight: bold;
+ opacity: 100%;
+ margin-left: -2px;
+ animation: name 1s 1 forwards;
+
+
+}
+
+#main-contents{
+
+  width:100%;
+  height:600px;
+  
+  
+}
+
+
+
+.bottom-right {
+  position: absolute;
+  bottom: 115px;
+  right: 46px;
+  color: white;
+  font-size: 10vw;
+}
+
+.dynamic-txts li{
+  list-style: none;
+  color: black;
+  font-size: 5.8vw;
+  font-weight: 600;
+  position: relative;
+  top: 0;
+  animation: slide 6s steps(4) infinite;
+}
+
+.count{
+
+ position: absolute;
+ top: 94%;
+ left: 4.5%;
+ transform: translate(-50%,-50%);
+ font-size: 100px;
+ color: #fff;
+ font-weight: 600;
+ mix-blend-mode: difference;
+ width: 400px;
+ text-align: right;
+ font-family: Josefin Sans; 
+
+}
+
+
+/*...................projects tab.......*/
+
+
+#sillycont{
+
+ padding-top: 9%;
+ padding-left: 5%;
+ font-family:'Sofia Pro', sans-serif; 
+ font-weight: 400;
+ font-size: 18px !important;
+ color: white;
+
+
+
+}
+ 
+#sillycont-two{
+
+ padding-top: 9%;
+ padding-left: 30px;
+ font-family:'Sofia Pro', sans-serif; 
+ font-size: 18px !important;
+ color: white;
+ font-weight: 400;
+
+
+} 
+
+
+#stream{
+
+ font-size: 30px !important;
+
+
+}
+
+
+#silly{
+
+ padding-top: 7%;
+ padding-left: 34px;
+ font-family:'Sofia Pro', sans-serif; 
+ font-weight: 400;
+ font-size: 16px !important;
+ color: white;
+
+}
+
+#ighead{
+
+ font-family:'Sofia Pro', sans-serif; 
+ color: black;
+ font-size: 70px !important;
+ font-weight: bold;
+
+}
+
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+
+.fone {
+    border-bottom: 50px solid white;
+    overflow: hidden;
+}
+
+.phonee{
+
+  overflow: hidden;
+}
+
+
+
+.count{
+
+ position: absolute;
+ top: 94%;
+ left: 0.1%;
+ transform: translate(-50%,-50%);
+ font-size: 80px;
+ color: #fff;
+ font-weight: 600;
+ mix-blend-mode: difference;
+ width: 400px;
+ text-align: right;
+ font-family: Josefin Sans; 
+
+}
+.portfolio{
+
+ font-size: 34px;
+ position: absolute; 
+ font-family:'Sofia Pro', sans-serif;   
+ top: 47%;
+ font-weight: 300 !important;
+ left: 49%;
+ transform: translate(-50%,-50%);
+ color: #fff;
+ font-weight: 400 !important;
+ mix-blend-mode: difference;
+ 
+}
+.portf{
+
+ font-size: 18px;
+ position: absolute; 
+ font-family:Josefin Sans;   
+ top: 56%;
+ font-weight: 300 !important;
+ left: 49.3%;
+ transform: translate(-50%,-50%);
+ color: #fff;
+ font-weight: 400 !important;
+ mix-blend-mode: difference;
+ letter-spacing: 1px;
+ animation: blinker 1.7s infinite !important;
+ 
+}
+
+
+.navbar{
+
+  margin-bottom: 0;
+
+}
+
+.navbar-brand {
+  
+  position: absolute;
+  top: 1%;
+  height: auto;
+  left: 0;
+  
+}
+  .jumbotron{
+  
+   padding-top: 0;
+   padding-bottom: 0;
+   margin-bottom: 0;
+   padding: 0;
+   margin-top: -17px;
+   margin-right: 0;
+   overflow: hidden;
+   width: 90%; 
+   animation: jumbo 3s 1 forwards;
+   background-color: white;
+   height: 580px;
+
+}
+
+.dynamic-txts li span::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  border-left: 2px solid transparent;
+  animation: typing 1.5s steps(14) infinite;
+}
+
+
+
+#hellotext{
+ 
+ font-family:'Sofia Pro', sans-serif; 
+ font-size: 60px;
+ width: 45%;
+ font-weight: 650;
+ opacity: 100%;
+ animation: abouttext 2s 1 forwards;
+ margin-top: -220px;
+ margin-left: 6%;
+ height: 100px;
+
+}
+
+
+.name-me{
+
+ font-family: "Helvetica Now Display DW",sans-serif;
+
+ font-weight: 540;
+ letter-spacing: .4em;
+ color: #575757;
+ font-size: 18px; 
+ line-height: 1.25rem;
+ text-transform: uppercase;
+ padding-top: 5px;
+ padding-bottom: 0px;
+ 
+
+}
+
+
+#contt{
+
+ font-family:'Sofia Pro', sans-serif; 
+ font-size: 32%;
+ font-weight: 400;
+ width: 165%;
+ margin-bottom: 20px;
+ color: grey;
+
+}
+
+#home-links{
+
+ font-family:'Sofia Pro', sans-serif; 
+ font-size: 18px;
+ font-weight: 350;
+ width: 600px;
+ color: grey;
+
+
+}
+
+	 /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+
+  }
+
+  .navbar-brand {
+  
+  position: absolute;
+  margin-top: -8px;
+
+  }
+
+
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 50px; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { /* Kosher cert */
+    font-size: .8em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { /* Star-K */
+    height: 20px;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+  #collapsable-nav a {
+  	font-size: 1.2em;
+  }
+  #collapsable-nav a i {
+  	font-size: 1em;
+  	margin-right: 5px;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  /* Footer */
+
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .panel-footer section:nth-child(3) {
+    margin-bottom: 0; /* margin already exists on the whole row */
+  }
+  .panel-footer section hr {
+    width: 50%;
+  }
+  /* End Footer */
+
+
+  
+
+  .containerer{
+
+  margin-right: 0px;
+  margin-left: 0px;
+  height: 90px;
+
+}
+
+ .navbar-brand{
+
+  padding-left: 10px;
+
+ }
+
+ 
+
+  #menu-tile, #specials-tile, #map-tile {
+   width: 360px;
+   margin: 0 auto 15px;
+  }
+  
+  .menu-item-photo {
+  	margin-right: auto;
+  }
+  .menu-item-tile .menu-item-price {
+   text-align: center;  
+
+  }
+  .menu-item-description {
+  	text-align: center;
+  }
+  
+  nav .linkk {
+    float: none;
+    position: fixed;
+    z-index: 9;
+    left: 100;
+    right: 0;
+    top: 62px;
+    bottom: 100%;
+    width: 85px;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgba(0,0,0,.9);
+    overflow: hidden;
+    box-sizing: border-box;
+    transition: all .5s ease-in-out;
+    border-left: 10px solid #000000;
+    border-right: 10px solid #000000;
+    margin-right: 10px !important;
+
+
+  }
+  nav .linkk a {
+    font-size: 17px !important;
+  }
+  nav :checked ~ .linkk {
+    bottom: 0;
+  }
+  nav .icon-burger {
+    display: block;
+  }
+  nav :checked ~ .icon-burger .line:nth-child(1) {
+    transform: translateY(10px) rotate(225deg);
+  }
+  nav :checked ~ .icon-burger .line:nth-child(3) {
+    transform: translateY(-10px) rotate(-225deg);
+  }
+  nav :checked ~ .icon-burger .line:nth-child(2) {
+    opacity: 0;
+  }
+
+  nav .icon-burger {
+  
+  position: absolute;
+  margin-top: 0px;
+  right: 2%;
+  top: 23%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+ .stickk .icon-burger {
+  
+  position: absolute;
+  margin-top: 0px;
+  right: 2%;
+  top: 30%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.stickk {
+
+  background-color: black; 
+  
+  position: fixed;
+  top: 0;
+  border: 0;
+  border-radius: 0;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  height: 63px;
+
+} 
+
+.stickk #navline{
+  
+  visibility: hidden;
+}
+
+
+.stickk .navbar-brand h1 { /* Name */
+  animation: text 2s 1 forwards;
+  font-family: 'Sofia Pro', sans-serif;                               
+  color: white;
+  font-size: 49px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .38;
+  
+  
+}
+
+.stickk #bb {
+  color: white;
+  text-align: center;
+  opacity: 100%;
+  animation: menu 2s 1 forwards;
+}
+
+.stickk .icon-burger .line {
+  width: 37px;
+  height: 4px;
+  background-color: white;
+  margin: 5px;
+  border-radius: 4px;
+  transition: all .3s ease-in-out;
+}
+
+.stickk #ll{
+
+ width: 36px;
+ margin-left: 15px;
+
+}
+
+
+
+.stickk .linkk {
+    float: none;
+    position: fixed;
+    z-index: 9;
+    left: 100;
+    right: 0;
+    top: 63px;
+    bottom: 100%;
+    width: 85px;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgba(0,0,0,.86);
+    overflow: hidden;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 30px;
+    box-sizing: border-box;
+    border-left: 10px solid #000000;
+    border-right: 10px solid #000000;
+    transition: all .5s ease-in-out;
+  }
+
+  .navbar-brand hr {
+    width: 400px;
+   
+    height: 4px;
+    left: 100%;
+    animation: text 3s 1 forwards;
+    /*animation: text 2s 1 forwards;*/
+  }
+
+  @keyframes text {
+  
+  0%{
+    left: 0%;
+    width: 0px;
+  }
+
+  100%{
+    left: 100%;
+    width: 290px;
+  }
+
+}
+
+.abc span{
+ 
+ padding-top: 0px;
+ color: white;
+ font-family:'Sofia Pro', sans-serif; 
+ font-size: 100px;
+ margin-left: 2.4%;
+ font-weight: bold;
+ line-height: 1.35;
+
+}
+
+.abc{
+  
+ height: 870px;
+
+}
+
+.projec{
+
+ margin-bottom: 6%;
+  
+
+}
+
+#slides{
+ 
+ 
+ margin-top: 2%;
+ margin-left: 4%;
+ margin-right: 4%;
+ height: 100%;
+ width: 92%;
+ border-radius: 10px;
+ border: 0px solid black;
+ background: black;
+ position: relative;
+ z-index: 1; 
+
+}
+
+.mh-skills{
+
+  display: flex;
+  align-content: center;
+  margin-left: 7.1%;
+  margin-right: 5.3%;
+}
+
+.mh-professional-progress{
+
+ padding-left: 0;
+ padding-right: 0;
+ width: 100%;
+ height: 75%;
+
+}
+.mh-professional-skills h3{
+
+  font-size: 297%;
+  line-height: 40px;
+  text-align: center;
+  font-weight: 640;
+  margin-top: 6.9%;
+  margin-bottom: 5.5%;
+  font-family: Josefin Sans;
+  color: white;
+  width: 100%;
+
+}
+
+.mh-professional-progress li{
+ 
+  display: inline-block;
+  margin: 0 auto;
+  float: none;
+  width: 42%;
+  margin-left: 4%;
+  text-align: center;
+  margin-top: 30px;
+  margin-right: 0px;
+
+
+}
+
+
+.mh-professional-skills{
+
+ margin-top: 2.2%;
+ margin-bottom: ;
+ margin-right: 5%;
+ margin-left: 5%;
+ width: 100%;
+
+}
+.mh-progress.mh-progress-circle{
+  
+  display: inline-block;
+  width: 40%;
+  height: 40%;
+
+}
+
+.progressbar-text{
+
+ font-size: 12px;
+
+
+}
+
+.pr-skill-name{
+
+  font-family: 'Balthazar', sans-serif;
+  font-size: 120%;
+  font-weight: 500;
+  color: white;
+}
+
+.profbox{
+ 
+  display: flex;
+  border-left: 80px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 0px;
+  height: 550px;
+  width: 100%;
+  background: black;
+ 
+}
+
+.mh-skills{
+
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  margin-left: 7.1%;
+  margin-right: 5.3%;
+}
+
+.skillscon{
+
+ 
+ height: 1390px; 
+ background-color: #121417;
+ width: 100%;
+
+}
+
+.techbox{
+
+  background:black;
+  margin-left: 0;
+  width: 100%;
+  padding-left: 5%; 
+  padding-right: 5%;
+  padding-top: 1.5%;
+  height: 610px;
+  margin-bottom: 5%;
+}
+
+#skillssname{
+  
+ font-family:'Sofia Pro', sans-serif; 
+ font-size: 100px;
+ color: white;
+ opacity: 0.8;
+ font-weight: bold;
+ margin-left: 3.7%;
+ line-height: 1.35;
+ margin-bottom: 2.5%;
+ align-content: left;
+
+ 
+
+}
+
+.mh-skills{
+
+  display: flex;
+  align-content: center;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+#resume{
+
+  margin-top: 90px;
+
+
+}
+
+
+
+#actual-grids{
+
+  display: flex;
+  flex-direction: column;
+  margin-left: 4%;
+  margin-right: 4%;
+
+}
+
+#music-text {
+
+ font-family: 'Sofia Pro', sans-serif;
+ font-size: 100px;
+ font-weight: bold;
+ color: white;
+
+}
+
+#music-des{
+
+  display: flex;
+  width: 100%;
+  height: 600px;
+  padding-left: 0%; 
+  padding-right: 0%;
+}
+
+#plattforms{
+
+  font-family:'Sofia Pro', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+  background: white;
+  padding-left: 3%;
+  padding-bottom: 1%;
+  height: 525px;
+  width: 100%;
+
+}
+
+#guitar-pic{
+
+ width: 100%;  
+ padding-left: 0;
+ padding-right: 0; 
+ border: 0px;
+
+}
+
+#imakemusic{
+
+  font-family:'Sofia Pro', sans-serif;
+  font-size: 155%;
+  font-weight: bold;
+  color: black;
+
+}
+
+#checkout{
+
+  font-family: Josefin Sans;
+  font-size: 70%;
+  font-weight: bold;
+  color: black;
+
+}
+
+#spotify{
+
+  font-family: Sofia Pro;
+  font-size: 65%;
+  font-weight: 500;
+  color: black;
+
+
+}
+
+#qwe span:hover{
+
+ font-size: 67%;
+
+}
+
+#pic{
+
+  font-family:'Sofia Pro', sans-serif;
+  color: white;
+  font-size: 70px;
+  font-weight: bold;
+  background: #bab7af;
+  border: 0px solid #787878;
+  height: 525px;
+  width: 100%;
+}
+
+
+#music{
+
+  display:flex;
+  height: 1360px;
+  margin-right: 0px;
+  margin-left: 0;
+  background: black;
+  width: 100%;
+
+}
+
+#music-title{
+ 
+  margin-left: 3.7%;
+  margin-bottom: 2%;
+  margin-right: 0;
+  width: 94%;
+}
+
+
+
+#aboutme{
+
+  display:flex;
+  height: 1510px;
+  width: 100%;
+  margin-right: 0px;
+  margin-left: 0;
+  background: white;
+  border-bottom: 22px solid black;
+
+}
+
+#about-text{
+
+  font-family:'Sofia Pro', sans-serif;
+  font-size: 100px;
+  font-weight: bold;
+  color: black;
+
+}
+#aboutme-title{
+ 
+  margin-left: 3.7%;
+  margin-bottom: 2%;
+
+
+}
+
+
+#actuall-grids {
+
+  display: flex;
+  flex-direction: column;
+  margin-left: 3.7%;
+  margin-right: 3.7%;
+   
+
+}
+
+
+#me-pic{
+
+  padding: 0;
+  width: 100%;
+  border: 12px solid black;
+  height: 624px;
+  overflow: hidden;
+  margin-bottom: 8%;
+
+}
+
+#about-des{
+
+  padding-left: 0;
+  margin-top: 0.8%;
+  margin-bottom: 0.8%;
+  margin-left: 0;
+  padding-right: 0;
+  height: 604px;
+  width: 100%;
+
+}
+
+#desc{
+
+ margin-top: 10px;
+ font-family:'Sofia Pro', sans-serif;
+ font-size: 40%;
+ color: white;
+ padding-left: 5px;
+ font-weight: 400;
+ padding-right: 10px;
+   
+}
+#myname{
+
+  font-family:'Sofia Pro', sans-serif;
+  font-size: 215%;
+  font-weight: bold;
+  color: white;
+
+}
+
+#cont{
+
+  font-family: Josefin Sans;
+  padding-left: 0.2%;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+
+}
+
+
+#desc-b{
+
+ margin-top: 10px;
+ font-family:'Sofia Pro', sans-serif;
+ font-size: 100%;
+ color: white;
+ padding-left: 7px;
+ font-weight: 850;
+
+ padding-right: 6px;
+  
+  
+ 
+}
+
+#location{
+
+ margin-top: 10px;
+ font-family:'Sofia Pro', sans-serif;
+ font-size: 20px;
+ color: white;
+ padding-left: 5px;
+ font-weight: 490;
+ padding-right: 10px;
+  
+  
+ 
+}
+
+#globe{
+
+ font-size: 30px;
+
+
+}
+
+#letmeknowyou{
+  margin-top: 0.7%;
+  margin-bottom: 5%;
+  margin-left: 3.1%;
+  font-family:'Sofia Pro', sans-serif;
+  color: black;
+  font-size: 58px;
+  font-weight: bold;
+  
+}
+
+
+#home-tiles{
+
+
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 70px;
+  margin-left: 3.7%;
+  margin-top: 1%;
+  margin-right: 3.7%;
+
+}
+
+#home-tiles .container {
+
+  background: black;
+  border: 9px solid #212121;
+  margin-left: 0%;
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+
+#home-tiles .containerr {
+
+  margin-left: 0%;
+  padding-left: 15px;
+  padding-right: 15px;
+  background: black;
+  margin-right: 0%;
+  margin-bottom: 8%;
+  height: 500px;
+
+}
+
+#text-tile {
+
+  font-family:'Sofia Pro', sans-serif;
+  color: white;
+  font-size: 62px;
+  font-weight: bold;
+  margin-top: 4%;
+  margin-left: 2%;
+  height: 450px;
+
+}
+
+#menu-tile {
+   
+   margin-left: 5%;
+   margin-right: 0;
+   width: 100%;
+}
+
+#contact {
+
+ padding-top: 44px;
+ padding-left: 3vw;
+ font-family: 'Sofia Pro', sans-serif;
+ font-size: 20px; 
+ color: white;
+
+}
+
+#msgbutton{
+
+ resize: none;
+ width: 330px;
+
+
+}
+
+#na{
+
+  width: 330px;
+
+}
+
+#na1{
+
+  width: 330px;
+
+}
+
+
+
+#smiley{
+
+  color: white;
+  font-family: arial;
+  font-size: 70px;
+  font-weight: 550;
+  margin-top: 20px;
+  margin-left: 10px;
+
+
+}
+
+
+#contact-mail{
+
+
+  font-family: 'Sofia Pro', sans-serif;
+  font-size: 20px;
+  color: white;
+  opacity: 100%;
+  animation: conmail 3s forwards;
+  padding-top: 20px;
+}
+
+#links {
+
+  font-size: 30px;
+  align-items: center;
+}
+
+#newss{
+
+  font-family: 'Sofia Pro', sans-serif;
+  font-size: 22px;
+  font-weight: 450;
+  color: white;
+  opacity: 100%;
+  animation: newssss 3s forwards;
+
+}
+#maill{
+
+  color: white;
+  font-size: 19px;
+}
+
+/*#topnav{
+
+  font-size: 40px;
+  color: black;
+  opacity: 100%;
+  margin-top: -70px;
+  margin-left: 440px;
+  animation: navtop 3s 1 forwards;
+}  */
+
+
+
+
+#harish{
+
+ font-family:'Sofia Pro', sans-serif; 
+ font-size: 90px;
+ font-weight: bold;
+ opacity: 100%;
+ margin-left: -6px;
+ animation: name 1s 1 forwards;
+
+
+}
+
+
+#main-contents{
+
+  display: grid;
+  height: 649px;
+  overflow: hidden;
+  margin-top: 0px;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+
+}
+
+.wrapper .static-text{
+  font-family:'Sofia Pro', sans-serif; 
+  font-weight: bold;
+  font-size: 70px;
+}
+.wrapper .dynamic-txts{
+  font-family:'Sofia Pro', sans-serif; 
+  padding-left: 0;
+  font-size: 90px;
+  height: 90px;
+  line-height: 90px;
+  overflow: hidden;
+}
+
+@keyframes slide {
+
+  100%{
+    top: -360px;
+  }
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 115px;
+  right: 15px;
+  color: white;
+  font-size: 23vw;
+}
+
+.t1{
+
+  position: absolute;
+  bottom: 115px;
+  right: 13px;
+  color: white;
+  font-size: 14vw;
+}
+
+
+
+.t2{
+  
+  position: absolute;
+  bottom: 115px;
+  right: 49px;
+  color: white;
+  font-size: 22vw;
+
+
+}
+
+.t3{
+
+  position: absolute;
+  bottom: 115px;
+  right: 27px;
+  color: white;
+  font-size: 22vw;
+
+
+}
+
+.dynamic-txts li{
+  list-style: none;
+  color: black;
+  font-size: 7.8vw;
+  font-weight: 600;
+  position: relative;
+  top: 0;
+  animation: slide 6s steps(4) infinite;
+}
+
+.wrapper{
+
+  width: 500px;
+}
+
+
+/*FOOTER*/
+
+.footerlast{
+
+ background: black;
+
+}
+
+.footerinner{
+
+ margin-left: 2%;
+
+
+}
+
+
+#footer-text {
+  color: white;
+  font-size: 17px;
+  font-family: 'Sofia Pro', sans-serif;
+  padding-left: 15px;
+}
+
+
+
+
+
+
+
+
+/* END FOOTER */
+
+
+
+/* projects tab */
+
+
+#sillycont{
+
+ padding-top: 8% !important;
+ padding-left: 5% !important;
+ font-family:'Sofia Pro', sans-serif; 
+ font-weight: 350 !important;
+ font-size: 19px !important;
+ color: white;
+
+
+
+}
+
+#emoji{
+
+  font-size: 17px !important;
+
+}
+
+
+#sillycont-two{
+
+ padding-top: 8% !important;
+ padding-left: 5% !important;
+ font-family:'Sofia Pro', sans-serif; 
+ font-size: 19px !important;
+ color: white;
+ font-weight: 350 !important;
+
+
+}
+
+#desc-two {
+    height: 260px !important;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+
+#title-prog{
+
+ font-family: "Helvetica Now Display DW",sans-serif;
+ font-weight: 350;
+ letter-spacing: .4em;
+ color: #878a8f;
+ font-size: 18px; 
+ line-height: 1.25rem;
+ text-transform: uppercase;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ margin-top: 50px !important;
+}
+
+#desc-one{
+
+ height: 310px !important;
+ margin-bottom: 15px;
+ overflow: hidden;
+ padding-left: 3px !important;
+
+}
+
+#one{
+ margin-top: 20px;
+ font-family:'Sofia Pro', sans-serif; 
+ color: white;
+ font-size: 50px;
+ text-transform: uppercase;
+ font-weight: bold;
+ margin-bottom: 40px !important;
+
+}
+
+#rowow{
+
+ margin-bottom: 8% !important;
+
+}
+
+#two{
+ margin-top: 20px;
+ font-family:'Sofia Pro', sans-serif; 
+ color: white;
+ font-size: 50px;
+ text-transform: uppercase;
+ font-weight: bold;
+ margin-bottom: 40px !important;
+
+}
+
+#desc-two{
+
+ height: 350px;
+ margin-bottom: 15px;
+ overflow: hidden;
+ padding-left: 3px !important;
+
+
+}
+
+#song-cont{
+
+ height: 350px;
+ width: 100%;
+ margin-bottom: 15px;
+ position: relative;
+ overflow: hidden;
+ border-radius: 7px;
+ margin-left: 3% !important;
+
+}
+#stu{
+
+  width: 95% !important; 
+  height: 315px;
+
+
+}
+
+#silly{
+
+ padding-top: 6% !important;
+ padding-left: 34px;
+ font-family:'Sofia Pro', sans-serif; 
+ font-weight: 400;
+ font-size: 20px;
+ color: white;
+
+
+
+}
+#song-cont{
+
+ height: auto !important;
+ width: 100%;
+ margin-bottom: 15px;
+ position: relative;
+ overflow: hidden;
+
+ border-radius: 7px;
+ margin-left: 9%;
+
+}
+
+
+#post1{
+
+ height: 590px !important;
+ overflow: hidden;
+ padding-left: 0px !important;
+ margin-bottom: 30px;
+ margin-right: 0px !important;
+ width: 490px;
+}
+
+#post3{
+
+ height: 590px !important;
+ padding-left: 0px !important;
+ overflow: hidden;
+ margin-bottom: 30px;
+ margin-right: 0px !important;
+ width: 490px;
+}
+
+#post4{
+ padding-left: 0px !important;
+ height: 590px !important;
+ overflow: hidden;
+ margin-right: 0px !important;
+ width: 490px;
+}
+
+
+#ighead{
+
+ font-family:'Sofia Pro', sans-serif; 
+ color: black;
+ font-size: 70px !important;
+ font-weight: bold;
+ margin-left: 
+
+}
+
+#preig{
+    font-family: "Helvetica Now Display DW",sans-serif;
+    font-weight: 350;
+    letter-spacing: .3em;
+    color: #878a8f;
+    font-size: 16px;
+    line-height: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 0px !important;
+    margin-bottom: 10px;
+}
+
+
+}
+
+
+
+
+  /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+  @media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+   /* font-size: 6vw; */
+
+   }
+  /* End Header */
+  
+  /* Home page */
+  #menu-tile, #specials-tile {
+    width: 280px;
+    margin: 0 auto 15px;
+  }
+   
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+  nav .linkk {
+    float: none;
+    position: fixed;
+    z-index: 9;
+    left: 100;
+    right: 0;
+    top: 90px;
+    bottom: 100%;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgba(0,0,0,.9);
+    overflow: hidden;
+    box-sizing: border-box;
+    transition: all .5s ease-in-out;
+    border-left:0;
+    border-right:0;
+    margin-right: 0;
+    border-left: 5px solid #000000;
+    border-right: 5px solid #000000;
+  }
+  nav .linkk a {
+    font-size: 20px;
+  }
+  nav :checked ~ .linkk {
+    bottom: 0;
+  }
+  nav .icon-burger {
+    display: block;
+  }
+  nav :checked ~ .icon-burger .line:nth-child(1) {
+    transform: translateY(10px) rotate(225deg);
+  }
+  nav :checked ~ .icon-burger .line:nth-child(3) {
+    transform: translateY(-10px) rotate(-225deg);
+  }
+  nav :checked ~ .icon-burger .line:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .stickk {
+
+  background-color: black; 
+  
+  position: fixed;
+  top: 0;
+  border: 0;
+  border-radius: 0;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  height: 73px;
+
+} 
+
+.stickk #navline{
+  
+  visibility: hidden;
+}
+
+
+.stickk .navbar-brand h1 { /* Name */
+  animation: text 2s 1 forwards;
+  font-family: 'Sofia Pro', sans-serif;                               
+  color: white;
+  font-size: 57px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .38;
+  
+  
+}
+
+
+
+
+.stickk #bb {
+  color: white;
+  text-align: center;
+  opacity: 100%;
+  animation: menu 2s 1 forwards;
+}
+
+.stickk .icon-burger .line {
+  width: 40px;
+  height: 4px;
+  background-color: white;
+  margin: 5px;
+  border-radius: 4px;
+  transition: all .3s ease-in-out;
+}
+
+
+.stickk .linkk {
+    float: none;
+    position: fixed;
+    z-index: 9;
+    left: 100;
+    right: 0;
+    top: 70px;
+    bottom: 100%;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgba(0,0,0,.86);
+    overflow: hidden;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 30px;
+    box-sizing: border-box;
+    border-left: 5px solid #000000;
+    border-right: 5px solid #000000;
+    transition: all .5s ease-in-out;
+  }
+
+
+
+}  
+
+
+@media (max-width: 1190px) {
+
+  #nav-list{
+
+   
+   left: 41%;
+
+
+  }
+
+}
+@media (max-width: 900px) {
+
+  #nav-list{
+
+   display: none;
+
+
+  }
+
+}
+
+@media (max-width: 1176px) and (min-width: 991px){
+
+.navbar-brand hr {
+    width: 300px;
+   
+    height: 4px;
+    left: 100%;
+    animation: text 3s 1 forwards;
+    /*animation: text 2s 1 forwards;*/
+}
+
+@keyframes text {
+  
+  0%{
+    left: 0%;
+    width: 0px;
+  }
+
+  100%{
+    left: 100%;
+    width: 300px;
+  }
+
+}
+
+
+}
+
+@media (max-width: 552px){
+
+.mh-progress.mh-progress-circle{
+  
+  display: inline-block;
+  width: 65%;
+  height: 65%;
+
+}
+
+  
+.progressbar-text{
+
+  font-size: 15px;
+
+
+}
+
+}
+
+@media (min-width: 964px) and (max-width: 1010px){
+
+
+#letmeknowyou{
+  margin-top: 0.7%;
+  margin-left: 11.3%;
+  font-family:'Sofia Pro', sans-serif;
+  color: black;
+  font-size: 100px;
+  font-weight: bold;
+  
+}
+
+
+
+}
+
+@media (min-width: 0px) and (max-width: 484px){
+
+#guitar-pic{
+
+ background-image: url('../images/sing4.jpg') no-repeat;
+
+}
+ 
+
+}
+
+@media (min-width:2055px ) and (max-width:2596px ){
+
+.mh-professional-progress {
+    padding-left: 1%;
+    padding-right: 1%;
+    width: 76%;
+    height: 75%;
+    margin-left: 17%;
+}
+
+#resume {
+    font-family: Josefin Sans;
+    font-size: 180%;
+    font-weight: bold;
+    margin-top: 2%;
+    opacity: 100%;
+    color: white;
+}
+
+
+}
+
+
+@media (max-width: 520px) and (min-width: 200px){
+
+.t1{
+  display: none;
+  position: absolute;
+  bottom: 115px;
+  right: 13px;
+  color: white;
+  font-size: 24vw;
+}
+
+
+.t11{
+
+  display: grid;
+  position: absolute;
+  bottom: 225px;
+  right: 105px;
+  color: white;
+  font-size: 22vw;
+  
+  
+}
+
+.t111{
+ display: grid;
+ position: absolute;
+ margin-top: 25px;
+ bottom: 115px;
+ right: 27px;
+ color: white;
+ font-size: 22vw;
+
+
+}
+
+
+
+}
+
+@media (max-width: 520px) and (min-width: 200px){
+
+.dynamic-txts li{
+  list-style: none;
+  color: black;
+  font-size: 10.8vw;
+  font-weight: 600;
+  position: relative;
+  top: 0;
+  animation: slide 6s steps(4) infinite;
+}
+
+.wrapper{
+
+  
+}
+
+
+}
+
+@media (max-width: 470px) and (min-width: 100px){
+
+#contt{
+
+ font-family:'Sofia Pro', sans-serif; 
+ font-size: 32%;
+ font-weight: 400;
+ width: 128%;
+ margin-bottom: 20px;
+ color: grey;
+
+}
+
+#home-links{
+
+ font-family:'Sofia Pro', sans-serif; 
+ font-size: 18px;
+ font-weight: 350;
+ width: 600px;
+ color: grey;
+
+
+}
+
+}
+
+@media (max-width: 2600px) and (min-width: 1700px){
+
+#nav-list{
+
+ left: 45%;
+
+}
+
+
+}
+
+
+/* PROJECTS PAGE */
+
+#outer-sec{
+ 
+
+ width: 100%;
+ height: auto;
+ background-color: white;
+
+
+}
+
+#headlink:hover{
+
+ text-decoration: none;
+
+}
+
+.layout{
+
+  display: grid;
+  height: auto;
+  background: black;
+  margin-left: 4%;
+  margin-right: 4%; 
+
+
+}
+
+#god{
+
+  margin-top: 75px;
+  margin-bottom: 45px;
+
+}
+
+#title-prog{
+
+ font-family: "Helvetica Now Display DW",sans-serif;
+ font-weight: 350;
+ letter-spacing: .4em;
+ color: #878a8f;
+ font-size: 18px; 
+ line-height: 1.25rem;
+ text-transform: uppercase;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ margin-top: 60px;
+}
+
+
+
+
+.head{
+
+ margin-left: 4%;
+ height: auto; 
+
+}
+
+#para{
+
+  margin-top: 20px;
+
+
+}
+
+#webd{
+
+font-family:'Sofia Pro', sans-serif; 
+font-size: 70px;
+color: black;
+font-weight: bold;
+
+
+}
+
+#web-cont{
+
+  margin-top: 50px;
+
+
+
+}
+
+#yr{
+ font-family: "Helvetica Now Display DW",sans-serif;
+ font-weight: 350;
+ letter-spacing: .3em;
+ color: #878a8f;
+ font-size: 16px; 
+ line-height: 1.25rem;
+ text-transform: uppercase;
+
+
+}
+
+#yr1{
+ font-family:'Sofia Pro', sans-serif; 
+ font-weight: 350;
+ color: black;
+ font-size: 19px;
+ font-weight: 600;
+ letter-spacing: .1em; 
+ 
+
+
+}
+
+#description{
+
+ margin-top: 60px;
+
+
+}
+
+#desc-title{
+
+ font-family: "Helvetica Now Display DW",sans-serif;
+ font-weight: 350;
+ letter-spacing: .3em;
+ color: #878a8f;
+ font-size: 16px; 
+ line-height: 1.25rem;
+ text-transform: uppercase;
+
+}
+
+#idk{
+
+  margin-top: 20px;
+ font-family:'Sofia Pro', sans-serif; 
+ font-size: 20px;
+ font-weight: 500;
+ width: 90%;
+
+}
+
+#sh{
+
+ font-family:'Sofia Pro', sans-serif; 
+ font-size: 20px;
+ font-weight: 1000;
+
+
+}
+
+#sorry{
+
+
+ margin-top: 30px;
+ font-family:'Sofia Pro', sans-serif; 
+ opacity: 0.7;
+
+
+}
+
+.prog1{
+
+ height: auto;
+ margin-left: 2.3%; 
+ margin-right: 2.3%;
+ 
+
+}
+
+.fone{
+
+ border-bottom: 50px solid white;
+
+}
+
+#one{
+ margin-top: 20px;
+ font-family:'Sofia Pro', sans-serif; 
+ color: white;
+ font-size: 50px;
+ text-transform: uppercase;
+ font-weight: bold;
+ margin-bottom: 70px;
+
+}
+
+
+#img-cont{
+
+ height: 350px;
+ width: 100%;
+ margin-bottom: 15px;
+ position: relative;
+ overflow: hidden;
+ background: white;
+ border-radius: 7px;
+
+
+}
+
+#rowow{
+
+ margin-bottom: 3.4%;
+
+}
+
+
+#desc-one{
+
+ height: 350px;
+ margin-bottom: 15px;
+ overflow: hidden;
+
+
+}
+
+#sillycont{
+
+ padding-top: 9%;
+ padding-left: 5%;
+ font-family:'Sofia Pro', sans-serif; 
+ font-weight: 400;
+ font-size: 20px;
+ color: white;
+
+
+
+}
+
+#emoji{
+
+ font-size: 25px;
+
+
+}
+
+
+.prog2{
+
+ height: auto;
+ margin-left: 2.3%; 
+ margin-right: 2.3%;
+
+}
+
+#two{
+ margin-top: 20px;
+ font-family:'Sofia Pro', sans-serif; 
+ color: white;
+ font-size: 50px;
+ text-transform: uppercase;
+ font-weight: bold;
+ margin-bottom: 70px;
+
+}
+
+#desc-two{
+
+ height: 350px;
+ margin-bottom: 15px;
+ overflow: hidden;
+
+
+}
+
+#sillycont-two{
+
+ padding-top: 9%;
+ padding-left: 30px;
+ font-family:'Sofia Pro', sans-serif; 
+ font-size: 20px;
+ color: white;
+ font-weight: 400;
+
+
+}
+
+#txt-ico{
+
+ font-family: arial;
+ font-weight: bold;
+
+}
+
+
+
+/* PROJECTS PAGE END */
+
+
+
+/* MUSIC PAGE */
+
+
+ 
+#god1{
+
+  margin-top: 90px;
+  margin-bottom: 45px;
+
+}
+
+#song1{
+
+ background: black;
+ margin-left: 4%;
+ margin-right: 4%;
+ height: 600px;
+ display: grid;
+
+}
+
+#mashup{
+ padding-top: 20px;
+ margin-left: 30px;
+ font-family:'Sofia Pro', sans-serif; 
+ color: white;
+ font-size: 50px;
+ text-transform: uppercase;
+ font-weight: bold;
+
+
+}
+
+ #embed1{
+ display: grid;
+ margin-top: 70px;
+ margin-left: 5.3%;
+ margin-right: 5.3%;
+
+ }
+
+ .details{
+ display: grid;
+ padding-top: 9%;
+ font-family:'Sofia Pro', sans-serif; 
+ font-size: 20px;
+ color: white;
+ font-weight: 400;
+
+ }
+
+.song1{
+
+ height: auto;
+ margin-left: 2.3%; 
+ margin-right: 2.3%;
+
+ 
+}
+ 
+
+#song-cont{
+
+ height: 350px;
+ width: 100%;
+ margin-bottom: 15px;
+ position: relative;
+ overflow: hidden;
+
+ border-radius: 7px;
+ margin-left: 9%;
+
+}
+
+#publ{
+
+ margin-top: 36px;
+ margin-left: 34px;
+
+
+}
+
+
+
+
+#stream{
+
+ font-size: 40px;
+
+
+}
+
+#stream:hover{
+
+ opacity: 0.8;
+
+
+}
+
+
+#yuvan{
+ margin-top: 20px;
+ font-family:'Sofia Pro', sans-serif; 
+ color: white;
+ font-size: 50px;
+ text-transform: uppercase;
+ font-weight: bold;
+ margin-bottom: 70px;
+ margin-left: 10px;
+
+}
+
+#stu{
+
+  width: 85%; 
+  height: 315px;
+
+
+
+}
+
+
+#silly{
+
+ padding-top: 7%;
+ padding-left: 34px;
+ font-family:'Sofia Pro', sans-serif; 
+ font-weight: 400;
+ font-size: 20px;
+ color: white;
+
+}
+
+.instagram{
+  
+  margin-top: 10px;
+  margin-left: 4%;
+  margin-right: 4%;
+
+
+}
+
+
+#ighead{
+
+ font-family:'Sofia Pro', sans-serif; 
+ color: black;
+ font-size: 90px;
+ font-weight: bold;
+
+}
+
+.igpost{
+
+  margin-top: 50px;
+
+}
+
+#ig-cont{
+
+
+ height: auto;
+ width: 100%;
+ margin-bottom: 15px;
+ position: relative;
+ overflow: hidden;
+ border-radius: 7px;
+
+}
+
+#post1{
+
+ height: 590px !important;
+ overflow: hidden;
+ padding-left: 7px;
+}
+
+#post3{
+
+ height: 590px !important;
+ overflow: hidden;
+ 
+
+}
+
+#post4{
+
+ height: 590px !important;
+ overflow: hidden;
+
+}
+
+#preig{
+    font-family: "Helvetica Now Display DW",sans-serif;
+    font-weight: 350;
+    letter-spacing: .3em;
+    color: #878a8f;
+    font-size: 16px;
+    line-height: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+
+
+
+/* MUSIC PAGE END */
+
+@media (max-width: 506px) and (min-width: 479px){
+
+.abc span {
+    padding-top: 0px;
+    color: white;
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 85px;
+    margin-left: 2.4%;
+    font-weight: bold;
+    line-height: 1.35;
+}
+
+
+.projec {
+    margin-bottom: 6%;
+    margin-top: 3%;
+}
+
+
+#plattforms {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    background: white;
+    padding-top: 10px;
+    padding-left: 3%;
+    padding-bottom: 1%;
+    height: 525px;
+    width: 100%;
+}
+
+
+.portfolio{
+
+ font-size: 40px !important;
+ width: 100%;
+ position: absolute; 
+ font-family:'Sofia Pro', sans-serif;   
+ top: 47%;
+ font-weight: 300 !important;
+ left: 68.3% !important;
+ transform: translate(-50%,-50%);
+ color: #fff;
+ font-weight: 400 !important;
+ mix-blend-mode: difference;
+ 
+
+}
+
+#webd {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 68px;
+    color: black;
+    font-weight: bold;
+}
+
+#two {
+    margin-top: 20px;
+    font-family: 'Sofia Pro', sans-serif;
+    color: white;
+    font-size: 49px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+
+.portf{
+
+ font-size: 19px !important;
+ position: absolute; 
+ font-family:Josefin Sans;   
+ top: 57%;
+ font-weight: 300 !important;
+ left: 51%;
+ transform: translate(-50%,-50%);
+ color: #fff;
+ font-weight: 400 !important;
+ mix-blend-mode: difference;
+ letter-spacing: 1px;
+ animation: blinker 1.7s infinite !important;
+ 
+}
+
+#sillycont {
+    padding-top: 8% !important;
+    padding-left: 5% !important;
+    font-family: 'Sofia Pro', sans-serif;
+    font-weight: 350 !important;
+    font-size: 20px !important;
+    color: white;
+}
+
+#sillycont-two{
+
+ padding-top: 8% !important;
+ padding-left: 5% !important;
+ font-family:'Sofia Pro', sans-serif; 
+ font-size: 20px !important;
+ color: white;
+ font-weight: 350 !important;
+
+
+}
+
+#desc-two {
+    height: 310px !important;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.stickk {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    border: 0;
+    border-radius: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    height: 64px;
+}
+
+.stickk .navbar-brand {
+    position: absolute;
+    top: 21%;
+}
+
+#preig {
+    font-family: "Helvetica Now Display DW",sans-serif;
+    font-weight: 350;
+    letter-spacing: .3em;
+    color: #878a8f;
+    font-size: 16px;
+    line-height: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 24px;
+}
+
+}
+
+
+
+@media (max-width: 479px) and (min-width: 426px){
+
+#me-pic {
+    padding: 0;
+    width: 100%;
+    border: 12px solid black;
+    height: 624px;
+    overflow: hidden;
+    margin-bottom: 8%;
+    background-color: black;
+}
+
+
+
+#plattforms {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    background: white;
+    padding-top: 5px;
+    padding-left: 3%;
+    padding-bottom: 1%;
+    height: 525px;
+    width: 100%;
+}
+
+
+#preig {
+    font-family: "Helvetica Now Display DW",sans-serif;
+    font-weight: 350;
+    letter-spacing: .3em;
+    color: #878a8f;
+    font-size: 16px;
+    line-height: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+
+
+.stickk .navbar-brand {
+    position: absolute;
+    top: 10%;
+}
+
+.stickk {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    border: 0;
+    border-radius: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    height: 64px;
+}
+
+.stickk .linkk {
+
+
+    top: 63px;
+
+  }
+
+
+#two {
+    margin-top: 20px;
+    font-family: 'Sofia Pro', sans-serif;
+    color: white;
+    font-size: 49px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+
+#idk {
+    margin-top: 20px;
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 17.5px;
+    font-weight: 500;
+    width: 90%;
+}
+
+#sh {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 18px;
+    font-weight: 1000;
+}
+
+#sillycont-two{
+
+ padding-top: 8% !important;
+ padding-left: 5% !important;
+ font-family:'Sofia Pro', sans-serif; 
+ font-size: 20px !important;
+ color: white;
+ font-weight: 350 !important;
+
+
+}
+
+#desc-two {
+    height: 355px !important;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+
+
+
+
+#silly {
+    padding-top: 7%;
+    padding-left: 28px;
+    font-family: 'Sofia Pro', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+} 
+
+#ighead {
+    font-family: 'Sofia Pro', sans-serif;
+    color: black;
+    font-size: 90px;
+    font-weight: bold;
+    line-height: 80px;
+}
+
+.igpost {
+    margin-top: 40px;
+}
+
+#title-prog {
+    font-family: "Helvetica Now Display DW",sans-serif;
+    font-weight: 350;
+    letter-spacing: .4em;
+    color: #878a8f;
+    font-size: 18px;
+    line-height: 1.25rem;
+    text-transform: uppercase;
+    padding-top: 5px;
+    padding-bottom: 9px;
+    margin-top: 40px !important;
+}
+
+#webd {
+    font-family: 'Sofia Pro', sans-serif;
+    padding-right: 33px;
+    font-size: 67px;
+    line-height: 85px;
+    color: black;
+    font-weight: bold;
+}
+
+
+
+#web-cont {
+    margin-top: 20px;
+}
+
+#para {
+    margin-top: 10px;
+}
+
+#description {
+    margin-top: 50px;
+}
+
+
+.portfolio{
+
+ font-size: 38px !important;
+ width: 100%;
+ position: absolute; 
+ font-family:'Sofia Pro', sans-serif;   
+ top: 47%;
+ font-weight: 300 !important;
+ left: 67% !important;
+ transform: translate(-50%,-50%);
+ color: #fff;
+ font-weight: 400 !important;
+ mix-blend-mode: difference;
+ 
+}
+.portf{
+
+ font-size: 19px !important;
+ position: absolute; 
+ font-family:Josefin Sans;   
+ top: 55%;
+ font-weight: 300 !important;
+ left: 51%;
+ transform: translate(-50%,-50%);
+ color: #fff;
+ font-weight: 400 !important;
+ mix-blend-mode: difference;
+ letter-spacing: 1px;
+ animation: blinker 1.7s infinite !important;
+ 
+}
+
+
+#sillycont {
+    padding-top: 8% !important;
+    padding-left: 5% !important;
+    font-family: 'Sofia Pro', sans-serif;
+    font-weight: 350 !important;
+    font-size: 20px !important;
+    color: white;
+}
+
+#desc-one {
+    height: 350px !important;
+    margin-bottom: 15px;
+    overflow: hidden;
+    padding-left: 3px !important;
+}
+
+.navbar-brand{
+
+  margin-top: 4px;
+
+ }
+
+
+#main-contents{
+
+  display: grid;
+  height: 720px;
+  overflow: hidden;
+  margin-top: 0px;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+
+}
+
+#hellotext {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 60px;
+    width: 45%;
+    font-weight: 650;
+    opacity: 100%;
+    animation: abouttext 2s 1 forwards;
+    margin-top: -220px;
+    margin-left: 3% !important;
+    height: 100px;
+}
+
+
+.stickk .navbar-brand h1 {
+    animation: text 2s 1 forwards;
+    font-family: 'Sofia Pro', sans-serif;
+    color: white;
+    font-size: 49px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .38;
+}
+
+
+
+nav .icon-burger {
+    position: absolute;
+    margin-top: 0px;
+    right: 2%;
+    top: 28%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.stickk .icon-burger {
+    position: absolute;
+    margin-top: 0px;
+    right: 2%;
+    top: 33%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.projec {
+    margin-bottom: 9%;
+    margin-top: 4.5%;
+}
+
+.abc span {
+    padding-top: 0px;
+    color: white;
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 80px;
+    margin-left: 2.4%;
+    font-weight: bold;
+    line-height: 1.35;
+}
+
+
+#skillssname {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 80px;
+    color: white;
+    opacity: 0.8;
+    font-weight: bold;
+    margin-left: 3.7%;
+    line-height: 1.35;
+    margin-bottom: 7%;
+    align-content: left;
+}
+
+
+.mh-professional-skills h3 {
+    font-size: 247%;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 640;
+    margin-top: 6.9%;
+    margin-bottom: 5.5%;
+    font-family: Josefin Sans;
+    color: white;
+    width: 100%;
+}
+
+
+#worked{
+
+  font-size: 116% !important;
+
+
+}
+
+#resume {
+    margin-top: 60px;
+}
+
+.techbox {
+    background: black;
+    margin-left: 0;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1.5%;
+    height: 530px;
+    margin-bottom: 5%;
+}
+
+.abc {
+    height: 820px;
+}
+
+.skillscon {
+    height: 1220px;
+    background-color: #121417;
+    width: 100%;
+}
+
+.profbox {
+    display: flex;
+    border-left: 80px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 0px;
+    height: 495px;
+    width: 100%;
+    background: black;
+}
+
+
+#music-text {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+}
+
+#music-title {
+    margin-left: 3.7%;
+    margin-bottom: 8%;
+    margin-right: 0;
+    width: 94%;
+}
+
+#imakemusic {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 135%;
+    font-weight: bold;
+    color: black;
+}
+
+#checkout {
+    font-family: Josefin Sans;
+    font-size: 60%;
+    font-weight: bold;
+    color: black;
+}
+
+
+#spotify {
+    font-family: Sofia Pro;
+    font-size: 60%;
+    font-weight: 500;
+    color: black;
+}
+
+#plattforms {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    background: white;
+    padding-left: 3%;
+    padding-bottom: 1%;
+    height: 460px;
+    width: 100%;
+}
+
+#music-des {
+    display: flex;
+    width: 100%;
+    height: 510px;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+#music {
+    display: flex;
+    height: 1230px;
+    margin-right: 0px;
+    margin-left: 0;
+    background: black;
+    width: 100%;
+}
+
+
+#about-text {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    color: black;
+}
+
+#aboutme {
+    display: flex;
+    height: 1460px;
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0;
+    background: white;
+    border-bottom: 22px solid black;
+}
+
+#aboutme-title {
+    margin-left: 3.7%;
+    margin-bottom: 4%;
+}
+
+
+#letmeknowyou {
+    margin-top: 2.5%;
+    margin-bottom: 9%;
+    margin-left: 3.1%;
+    font-family: 'Sofia Pro', sans-serif;
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#text-tile {
+    font-family: 'Sofia Pro', sans-serif;
+    color: white;
+    font-size: 57px;
+    font-weight: bold;
+    margin-top: 4%;
+    margin-left: 2%;
+    height: 450px;
+}
+
+#menu-tile, #specials-tile {
+    width: 280px;
+    margin: 0 auto 45px;
+    margin-left: 0;
+}
+
+#contact {
+    padding-top: 44px;
+    padding-left: 3vw;
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+#home-tiles {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin-left: 3.7%;
+    margin-top: 1%;
+    margin-right: 3.7%;
+}
+
+.name-me {
+    font-family: "Helvetica Now Display DW",sans-serif;
+    font-weight: 520;
+    letter-spacing: .4em;
+    color: #575757;
+    font-size: 18px;
+    line-height: 1.25rem;
+    text-transform: uppercase;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+
+
+#resume {
+    font-family: Josefin Sans;
+    font-size: 160%;
+    font-weight: bold;
+    margin-top: 8%;
+    opacity: 100%;
+    color: white;
+    line-height: 60px;
+}
+
+
+@keyframes text{
+
+0% {
+    left: 0%;
+    width: 0px;
+}
+
+100% {
+    left: 100%;
+    width: 265px;
+}
+
+}
+
+#contt {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 32%;
+    font-weight: 400;
+    width: 145%;
+    margin-bottom: 20px;
+    color: grey;
+}
+
+}
+
+@media (max-width: 426px) and (min-width: 395px){
+
+
+#me-pic {
+    padding: 0;
+    width: 100%;
+    border: 12px solid black;
+    height: 624px;
+    overflow: hidden;
+    margin-bottom: 8%;
+    background-color: black;
+}
+
+
+
+#preig {
+    font-family: "Helvetica Now Display DW",sans-serif;
+    font-weight: 350;
+    letter-spacing: .3em;
+    color: #878a8f;
+    font-size: 16px;
+    line-height: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+
+.stickk .linkk {
+
+
+    top: 63px;
+
+  }
+
+
+.stickk .navbar-brand {
+    position: absolute;
+    top: 10%;
+}
+
+.stickk {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    border: 0;
+    border-radius: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    height: 64px;
+}
+
+
+
+
+#idk {
+    margin-top: 20px;
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    width: 90%;
+}
+
+#sh {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 17.5px;
+    font-weight: 1000;
+}
+
+#sorry {
+    margin-top: 30px;
+    font-family: 'Sofia Pro', sans-serif;
+    opacity: 0.7;
+    font-size: 15px;
+}
+
+#two {
+    margin-top: 20px;
+    font-family: 'Sofia Pro', sans-serif;
+    color: white;
+    font-size: 46px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+
+
+
+#sillycont-two{
+
+ padding-top: 8% !important;
+ padding-left: 5% !important;
+ font-family:'Sofia Pro', sans-serif; 
+ font-size: 19px !important;
+ color: white;
+ font-weight: 350 !important;
+
+
+}
+
+#desc-two {
+    height: 350px !important;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+
+
+
+
+
+#sillycont {
+    padding-top: 8% !important;
+    padding-left: 5% !important;
+    font-family: 'Sofia Pro', sans-serif;
+    font-weight: 350 !important;
+    font-size: 19px !important;
+    color: white;
+}
+
+#desc-one {
+    height: 350px !important;
+    margin-bottom: 15px;
+    overflow: hidden;
+    padding-left: 3px !important;
+}
+
+
+#ighead {
+    font-family: 'Sofia Pro', sans-serif;
+    color: black;
+    font-size: 90px;
+    font-weight: bold;
+    line-height: 80px;
+}
+
+.igpost {
+    margin-top: 40px;
+}
+
+#one {
+    margin-top: 20px;
+    font-family: 'Sofia Pro', sans-serif;
+    color: white;
+    font-size: 47px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+
+#desc-one {
+    height: 360px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+#song-cont {
+    height: 350px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 7px;
+    margin-left: 9%;
+}
+
+#silly {
+    padding-top: 7%;
+    padding-left: 23px;
+    font-family: 'Sofia Pro', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+}
+
+#publ {
+    margin-top: 36px;
+    margin-left: 30px;
+}
+
+#title-prog {
+    font-family: "Helvetica Now Display DW",sans-serif;
+    font-weight: 350;
+    letter-spacing: .4em;
+    color: #878a8f;
+    font-size: 18px;
+    line-height: 1.25rem;
+    text-transform: uppercase;
+    padding-top: 5px;
+    padding-bottom: 9px;
+    margin-top: 40px !important;
+}
+
+#yuvan {
+    margin-top: 20px;
+    font-family: 'Sofia Pro', sans-serif;
+    color: white;
+    font-size: 47px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 70px;
+    margin-left: 10px;
+}
+
+#webd {
+    font-family: 'Sofia Pro', sans-serif;
+    color: black;
+    font-weight: bold;
+    padding-right: 33px;
+    font-size: 66px;
+    line-height: 80px;
+}
+
+
+
+#web-cont {
+    margin-top: 20px;
+}
+
+#para {
+    margin-top: 10px;
+}
+
+#description {
+    margin-top: 50px;
+}
+
+
+
+
+.portfolio{
+
+ font-size: 36px !important;
+ width: 100%;
+ position: absolute; 
+ font-family:'Sofia Pro', sans-serif;   
+ top: 47%;
+ font-weight: 300 !important;
+ left: 67.3% !important;
+ transform: translate(-50%,-50%);
+ color: #fff;
+ font-weight: 400 !important;
+ mix-blend-mode: difference;
+ 
+}
+.portf{
+
+ font-size: 17px !important;
+ position: absolute; 
+ font-family:Josefin Sans;   
+ top: 55%;
+ font-weight: 300 !important;
+ left: 51%;
+ transform: translate(-50%,-50%);
+ color: #fff;
+ font-weight: 400 !important;
+ mix-blend-mode: difference;
+ letter-spacing: 1px;
+ animation: blinker 1.7s infinite !important;
+ 
+}
+
+
+
+
+.navbar-brand{
+
+  margin-top: 4px;
+
+ }
+
+
+#main-contents{
+
+  display: grid;
+  height: 720px;
+  overflow: hidden;
+  margin-top: 0px;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+
+}
+
+#hellotext {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 60px;
+    width: 45%;
+    font-weight: 650;
+    opacity: 100%;
+    animation: abouttext 2s 1 forwards;
+    margin-top: -220px;
+    margin-left: 3% !important;
+    height: 100px;
+}
+
+
+.stickk .navbar-brand h1 {
+    animation: text 2s 1 forwards;
+    font-family: 'Sofia Pro', sans-serif;
+    color: white;
+    font-size: 49px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .38;
+}
+
+
+
+nav .icon-burger {
+    position: absolute;
+    margin-top: 0px;
+    right: 2%;
+    top: 28%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.stickk .icon-burger {
+    position: absolute;
+    margin-top: 0px;
+    right: 2%;
+    top: 33%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+
+.abc span {
+    padding-top: 0px;
+    color: white;
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 77px;
+    margin-left: 2.4%;
+    font-weight: bold;
+    line-height: 1.35;
+}
+
+
+#skillssname {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 77px;
+    color: white;
+    opacity: 0.8;
+    font-weight: bold;
+    margin-left: 3.7%;
+    line-height: 1.35;
+    margin-bottom: 7%;
+    align-content: left;
+}
+
+.projec {
+    margin-bottom: 8%;
+    margin-top: 4.5%;
+}
+
+.mh-skills .mh-professional-skill h3 {
+    font-size: 300%;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 6.2%;
+    align-content: center;
+    margin-bottom: 6.5%;
+    font-family: Josefin Sans;
+    color: white;
+}
+
+
+.mh-professional-skills h3 {
+    font-size: 247%;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 640;
+    margin-top: 6.9%;
+    margin-bottom: 5.5%;
+    font-family: Josefin Sans;
+    color: white;
+    width: 100%;
+}
+
+
+#worked{
+
+  font-size: 107% !important;
+
+
+}
+
+#resume {
+    margin-top: 60px;
+}
+
+.techbox {
+    background: black;
+    margin-left: 0;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1.5%;
+    height: 510px;
+    margin-bottom: 5%;
+}
+
+.abc {
+    height: 820px;
+}
+
+.skillscon {
+    height: 1170px;
+    background-color: #121417;
+    width: 100%;
+}
+
+.profbox {
+    display: flex;
+    border-left: 80px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 0px;
+    height: 470px;
+    width: 100%;
+    background: black;
+}
+
+
+#music-text {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 77px;
+    font-weight: bold;
+    color: white;
+}
+
+#music-title {
+    margin-left: 3.7%;
+    margin-bottom: 7%;
+    margin-right: 0;
+    width: 94%;
+}
+
+#imakemusic {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 135%;
+    font-weight: bold;
+    color: black;
+}
+
+#checkout {
+    font-family: Josefin Sans;
+    font-size: 54%;
+    font-weight: bold;
+    color: black;
+}
+
+#desc {
+    margin-top: 10px;
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 39%;
+    color: white;
+    padding-left: 5px;
+    font-weight: 400;
+    padding-right: 10px;
+}
+
+#spotify {
+    font-family: Sofia Pro;
+    font-size: 60%;
+    font-weight: 500;
+    color: black;
+}
+
+#plattforms {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    background: white;
+    padding-left: 3%;
+    padding-bottom: 1%;
+    padding-top: 5px;
+    height: 460px;
+    width: 100%;
+}
+
+#music-des {
+    display: flex;
+    width: 100%;
+    height: 510px;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+#music {
+    display: flex;
+    height: 1220px;
+    margin-right: 0px;
+    margin-left: 0;
+    background: black;
+    width: 100%;
+}
+
+
+#about-text {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    color: black;
+}
+
+#aboutme-title {
+    margin-left: 3.7%;
+    margin-bottom: 3%;
+}
+
+#aboutme {
+    display: flex;
+    height: 1460px;
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0;
+    background: white;
+    border-bottom: 22px solid black;
+}
+
+#letmeknowyou {
+    margin-top: 2.3%;
+    margin-bottom: 9%;
+    margin-left: 3.1%;
+    font-family: 'Sofia Pro', sans-serif;
+    color: black;
+    font-size: 47px;
+    font-weight: bold;
+}
+
+#text-tile {
+    font-family: 'Sofia Pro', sans-serif;
+    color: white;
+    font-size: 57px;
+    font-weight: bold;
+    margin-top: 4%;
+    margin-left: 2%;
+    height: 450px;
+}
+
+#menu-tile, #specials-tile {
+    width: 280px;
+    margin: 0 auto 45px;
+    margin-left: 0;
+}
+
+#contact {
+    padding-top: 44px;
+    padding-left: 3vw;
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+#home-tiles {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin-left: 3.7%;
+    margin-top: 1%;
+    margin-right: 3.7%;
+}
+
+.name-me {
+    font-family: "Helvetica Now Display DW",sans-serif;
+    font-weight: 520;
+    letter-spacing: .4em;
+    color: #575757;
+    font-size: 18px;
+    line-height: 1.25rem;
+    text-transform: uppercase;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+
+
+#resume {
+    font-family: Josefin Sans;
+    font-size: 155%;
+    font-weight: bold;
+    margin-top: 8%;
+    opacity: 100%;
+    color: white;
+    line-height: 50px;
+}
+
+
+@keyframes text{
+
+0% {
+    left: 0%;
+    width: 0px;
+}
+
+100% {
+    left: 100%;
+    width: 265px;
+}
+
+}
+
+#contt {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 32%;
+    font-weight: 400;
+    width: 125%;
+    margin-bottom: 20px;
+    color: grey;
+}
+
+.t11 {
+    display: grid;
+    position: absolute;
+    bottom: 225px;
+    right: 90px;
+    color: white;
+    font-size: 22vw;
+}
+
+}
+
+@media (max-width: 395px) and (min-width: 360px){
+
+#me-pic {
+    padding: 0;
+    width: 100%;
+    border: 12px solid black;
+    height: 624px;
+    overflow: hidden;
+    margin-bottom: 8%;
+    background-color: black;
+}
+
+
+
+#preig {
+    font-family: "Helvetica Now Display DW",sans-serif;
+    font-weight: 350;
+    letter-spacing: .3em;
+    color: #878a8f;
+    font-size: 16px;
+    line-height: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+
+.stickk .linkk {
+
+
+    top: 63px;
+
+}
+
+
+.stickk .navbar-brand {
+    position: absolute;
+    top: 2%;
+}
+
+.stickk {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    border: 0;
+    border-radius: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    height: 64px;
+}
+
+
+
+
+#idk {
+    margin-top: 20px;
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 17.4px;
+    font-weight: 500;
+    width: 90%;
+}
+
+#sh {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 17.5px;
+    font-weight: 1000;
+}
+
+
+#sillycont-two{
+
+ padding-top: 8% !important;
+ padding-left: 5% !important;
+ font-family:'Sofia Pro', sans-serif; 
+ font-size: 18px !important;
+ color: white;
+ font-weight: 350 !important;
+
+
+}
+
+#desc-two {
+    height: 340px !important;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+
+
+
+
+#sillycont {
+    padding-top: 8% !important;
+    padding-left: 5% !important;
+    font-family: 'Sofia Pro', sans-serif;
+    font-weight: 350 !important;
+    font-size: 19px !important;
+    color: white;
+}
+
+#desc-one {
+    height: 350px !important;
+    margin-bottom: 15px;
+    overflow: hidden;
+    padding-left: 3px !important;
+}
+
+#two {
+    margin-top: 20px;
+    font-family: 'Sofia Pro', sans-serif;
+    color: white;
+    font-size: 43px!important;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+
+
+#ighead {
+    font-family: 'Sofia Pro', sans-serif;
+    color: black;
+    font-size: 67px !important;
+    font-weight: bold;
+    line-height: 80px;
+}
+
+.igpost {
+    margin-top: 40px;
+}
+
+#title-prog {
+    font-family: "Helvetica Now Display DW",sans-serif;
+    font-weight: 350;
+    letter-spacing: .4em;
+    color: #878a8f;
+    font-size: 18px;
+    line-height: 1.25rem;
+    text-transform: uppercase;
+    padding-top: 5px;
+    padding-bottom: 9px;
+    margin-top: 40px !important;
+}
+
+#sorry {
+    margin-top: 30px;
+    font-family: 'Sofia Pro', sans-serif;
+    opacity: 0.7;
+    font-size: 15px;
+}
+
+
+#webd {
+    font-family: 'Sofia Pro', sans-serif; 
+    color: black;
+    font-weight: bold;
+    padding-right: 33px;
+    font-size: 66px;
+    line-height: 78px;
+}
+
+
+
+#web-cont {
+    margin-top: 20px;
+}
+
+#para {
+    margin-top: 10px;
+}
+
+#description {
+    margin-top: 50px;
+}
+
+#yuvan {
+    margin-top: 20px;
+    font-family: 'Sofia Pro', sans-serif;
+    color: white;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 70px;
+    margin-left: 10px;
+}
+
+#two {
+    margin-top: 20px;
+    font-family: 'Sofia Pro', sans-serif;
+    color: white;
+    font-size: 46px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+
+#one {
+    margin-top: 20px;
+    font-family: 'Sofia Pro', sans-serif;
+    color: white;
+    font-size: 44px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+
+#silly {
+    padding-top: 7%;
+    padding-left: 24px;
+    font-family: 'Sofia Pro', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+}
+
+#publ {
+    margin-top: 36px;
+    margin-left: 30px;
+}
+
+
+.portfolio{
+
+ font-size: 32px !important;
+ width: 100%;
+ position: absolute; 
+ font-family:'Sofia Pro', sans-serif;   
+ top: 47%;
+ font-weight: 300 !important;
+ left: 68.2% !important;
+ transform: translate(-50%,-50%);
+ color: #fff;
+ font-weight: 400 !important;
+ mix-blend-mode: difference;
+ 
+}
+.portf{
+
+ font-size: 16px !important;
+ position: absolute; 
+ font-family:Josefin Sans;   
+ top: 56%;
+ font-weight: 300 !important;
+ left: 51%;
+ transform: translate(-50%,-50%);
+ color: #fff;
+ font-weight: 400 !important;
+ mix-blend-mode: difference;
+ letter-spacing: 1px;
+ animation: blinker 1.7s infinite !important;
+ 
+}
+
+
+  
+
+.navbar-brand{
+
+  margin-top: 4px;
+
+ }
+
+
+#main-contents{
+
+  display: grid;
+  height: 720px;
+  overflow: hidden;
+  margin-top: 0px;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+
+}
+
+#hellotext {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 60px;
+    width: 45%;
+    font-weight: 650;
+    opacity: 100%;
+    animation: abouttext 2s 1 forwards;
+    margin-top: -220px;
+    margin-left: 3% !important;
+    height: 100px;
+}
+
+
+.stickk .navbar-brand h1 {
+    animation: text 2s 1 forwards;
+    font-family: 'Sofia Pro', sans-serif;
+    color: white;
+    font-size: 49px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .38;
+}
+
+
+
+nav .icon-burger {
+    position: absolute;
+    margin-top: 0px;
+    right: 2%;
+    top: 28%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.stickk .icon-burger {
+    position: absolute;
+    margin-top: 0px;
+    right: 2%;
+    top: 33%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.projec {
+    margin-bottom: 8%;
+    margin-top: 4.5%;
+}
+
+
+.abc span {
+    padding-top: 0px;
+    color: white;
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 75px;
+    margin-left: 2.4%;
+    font-weight: bold;
+    line-height: 1.35;
+}
+
+
+#skillssname {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 75px;
+    color: white;
+    opacity: 0.8;
+    font-weight: bold;
+    margin-left: 3.7%;
+    line-height: 1.35;
+    margin-bottom: 7%;
+    align-content: left;
+}
+
+.mh-skills .mh-professional-skill h3 {
+    font-size: 260%;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 6.2%;
+    align-content: center;
+    margin-bottom: 6.5%;
+    font-family: Josefin Sans;
+    color: white;
+}
+
+
+.mh-professional-skills h3 {
+    font-size: 227%;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 640;
+    margin-top: 6.9%;
+    margin-bottom: 5.5%;
+    font-family: Josefin Sans;
+    color: white;
+    width: 100%;
+}
+
+
+#worked{
+
+  font-size: 98% !important;
+
+
+}
+
+#resume {
+    margin-top: 60px;
+}
+
+.techbox {
+    background: black;
+    margin-left: 0;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1.5%;
+    height: 500px;
+    margin-bottom: 5%;
+}
+
+.abc {
+    height: 820px;
+}
+
+.skillscon {
+    height: 1160px;
+    background-color: #121417;
+    width: 100%;
+}
+
+.profbox {
+    display: flex;
+    border-left: 80px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 0px;
+    height: 470px;
+    width: 100%;
+    background: black;
+}
+
+
+#music-text {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 75px;
+    font-weight: bold;
+    color: white;
+}
+
+#music-title {
+    margin-left: 3.7%;
+    margin-bottom: 7%;
+    margin-right: 0;
+    width: 94%;
+}
+
+#imakemusic {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 115%;
+    font-weight: bold;
+    color: black;
+}
+
+#checkout {
+    font-family: Josefin Sans;
+    font-size: 50%;
+    font-weight: bold;
+    color: black;
+}
+
+#desc {
+    margin-top: 10px;
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 37%;
+    color: white;
+    padding-left: 5px;
+    font-weight: 400;
+    padding-right: 10px;
+}
+
+#spotify {
+    font-family: Sofia Pro;
+    font-size: 58%;
+    font-weight: 500;
+    color: black;
+}
+
+#plattforms {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    background: white;
+    padding-top: 5px;
+    padding-left: 3%;
+    padding-bottom: 1%;
+    height: 440px;
+    width: 100%;
+}
+
+#music-des {
+    display: flex;
+    width: 100%;
+    height: 480px;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+#music {
+    display: flex;
+    height: 1190px;
+    margin-right: 0px;
+    margin-left: 0;
+    background: black;
+    width: 100%;
+}
+
+#aboutme-title {
+    margin-left: 3.7%;
+    margin-bottom: 3%;
+}
+
+
+#about-text {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 77px;
+    font-weight: bold;
+    color: black;
+}
+
+#myname {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 195%;
+    font-weight: bold;
+    color: white;
+}
+
+#aboutme {
+    display: flex;
+    height: 1450px;
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0;
+    background: white;
+    border-bottom: 22px solid black;
+}
+
+#letmeknowyou {
+    margin-top: 2.2%;
+    margin-bottom: 9.3%;
+    margin-left: 3.1%;
+    font-family: 'Sofia Pro', sans-serif;
+    color: black;
+    font-size: 43px;
+    font-weight: bold;
+}
+
+#text-tile {
+    font-family: 'Sofia Pro', sans-serif;
+    color: white;
+    font-size: 53.5px;
+    font-weight: bold;
+    margin-top: 4%;
+    margin-left: 2%;
+    height: 450px;
+}
+
+#home-tiles .containerr {
+    margin-left: 0%;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: black;
+    margin-right: 0%;
+    margin-bottom: 8%;
+    height: 460px;
+}
+
+#menu-tile, #specials-tile {
+    width: 280px;
+    margin: 0 auto 45px;
+    margin-left: 0;
+}
+
+#contact {
+    padding-top: 44px;
+    padding-left: 3vw;
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+#home-tiles {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin-left: 3.7%;
+    margin-top: 1%;
+    margin-right: 3.7%;
+}
+
+.name-me {
+    font-family: "Helvetica Now Display DW",sans-serif;
+    font-weight: 520;
+    letter-spacing: .4em;
+    color: #575757;
+    font-size: 18px;
+    line-height: 1.25rem;
+    text-transform: uppercase;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+
+
+#resume {
+    font-family: Josefin Sans;
+    font-size: 140%;
+    font-weight: bold;
+    margin-top: 8%;
+    opacity: 100%;
+    color: white;
+    line-height: 50px;
+}
+
+
+@keyframes text{
+
+0% {
+    left: 0%;
+    width: 0px;
+}
+
+100% {
+    left: 100%;
+    width: 235px;
+}
+
+}
+
+.navbar-brand h1 {
+    padding-top: 10px;
+    font-size: 48px;
+}
+
+#contt {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 30%;
+    font-weight: 400;
+    width: 115%;
+    margin-bottom: 20px;
+    color: grey;
+}
+
+.t11 {
+    display: grid;
+    position: absolute;
+    bottom: 225px;
+    right: 85px;
+    color: white;
+    font-size: 22vw;
+}
+
+}
