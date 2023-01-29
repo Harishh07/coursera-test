@@ -1,2 +1,1 @@
-# coursera-test
-Coursera Test Repository
+# Personal Projects
