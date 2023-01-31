@@ -483,14 +483,19 @@ $( '#aa' ).click(function() {
 });
 */
 
- function sendMaill() {
-        Email.send({
 
+ function sendMaill() {
+
+        var myInput = document.getElementById("na");
+        var myInputt = document.getElementById("na1");
+        var myInputtt = document.getElementById("msgbutton");
+        Email.send({
+          Host : "smtp.mailtrap.io",
           SecureToken: "b9409e6f-9fd5-47cd-b3ee-6f7c0ad00783",
           To: "iharishh07@gmail.com",
-          From: `Name - ${document.getElementById("firstname").value}`,
-          Subject: `Mail - ${document.getElementById("secname").value}`,
-          Body: `Message - ${document.getElementById("msg").value}`,
+          From: `Name - ${myInput.value}`,
+          Subject: `Mail - ${myInputt.value}`,
+          Body: `Message - ${myInputtt.value}`,
         })
         document.getElementById("firstname").value = ''
         document.getElementById("secname").value = ''
@@ -500,7 +505,14 @@ $( '#aa' ).click(function() {
 
 function nav(){
 
+var myInput = document.getElementById("na");
+var myInputt = document.getElementById("na1");
+var myInputtt = document.getElementById("msgbutton");
+if (myInput && myInput.value && myInputt && myInputt.value && myInputtt && myInputtt.value) {
   alert("Thanks! Will reach out soon!");
+}
+
+  
 }
 
 
