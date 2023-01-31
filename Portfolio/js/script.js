@@ -498,6 +498,10 @@ $( '#aa' ).click(function() {
         //.then((message) => alert(message));
 }
 
+function nav(){
+
+  alert("Thanks! Will reach out soon!");
+}
 
 
 /*const bg = document.getElementById("jum");
